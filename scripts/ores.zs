@@ -54,7 +54,7 @@ mods.thaumcraft.Infusion.addRecipe("OREADVANCED", <ThermalFoundation:Ore:4>, [<T
 
 mods.thaumcraft.Infusion.addRecipe("OREADVANCED", <minecraft:stone>, [<ThaumicTinkerer:kamiResource>, <ThaumicTinkerer:kamiResource>], "praecantatio 64, fabrico 64", <DraconicEvolution:draconiumOre> * 4, 10);
 
-mods.thaumcraft.Infusion.addRecipe("ICHOR", <minecraft:nether_star>, [<DraconicEvolution:draconicIngot>, <DraconicEvolution:draconicIngot>, <DraconicEvolution:draconicIngot>, <DraconicEvolution:draconicIngot>, <DraconicEvolution:draconicIngot>, <DraconicEvolution:draconicIngot>, <DraconicEvolution:draconicIngot>, <DraconicEvolution:draconicIngot>], "praecantatio 64, alienis 32, humanus 32", <DraconicEvolution:dragonHeart>, 10);
+mods.thaumcraft.Infusion.addRecipe("ICHOR", <minecraft:nether_star>, [<DraconicEvolution:draconicIngot>, <DraconicEvolution:draconicIngot>, <DraconicEvolution:draconicIngot>, <DraconicEvolution:draconicIngot>, <DraconicEvolution:draconicIngot>, <DraconicEvolution:draconicIngot>, <DraconicEvolution:draconicIngot>, <DraconicEvolution:draconicIngot>], "praecantatio 64, alienis 32, bestia 32", <DraconicEvolution:dragonHeart>, 10);
 
 mods.thaumcraft.Infusion.addRecipe("ICHOR", <DraconicEvolution:dragonHeart>, [<DraconicEvolution:draconium>, <DraconicEvolution:draconium>, <DraconicEvolution:draconium>, <DraconicEvolution:draconium>], "praecantatio 64, fabrico 64", <DraconicEvolution:draconicBlock> * 4, 10);
 

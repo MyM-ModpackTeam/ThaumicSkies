@@ -24,6 +24,10 @@ recipes.addShapeless(<Thaumcraft:ItemGoggles>, [<ThaumicTinkerer:revealingHelm>]
 recipes.addShapeless(<evilcraft:hardenedBlood>, [<AWWayofTime:bucketLife>.transformReplace(<minecraft:bucket>)]);
 
 #Pulverizer Fixes
-mods.thermalexpansion.Pulverizer.removeRecipe(<exnihilo:dust>);
-mods.thermalexpansion.Pulverizer.addRecipe(3200, <minecraft:sand>, <exnihilo:dust>);
 mods.thermalexpansion.Pulverizer.addRecipe(3200, <exnihilo:dust>, <EnderIO:itemMaterial>);
+
+#Egg Recipe
+mods.thaumcraft.Crucible.addRecipe("ALCHEMICALMANUFACTURE", <minecraft:egg>, <minecraft:slime_ball>, "victus 4");
+
+#Creative Cell Equivalency
+recipes.addShapeless(<appliedenergistics2:tile.BlockCreativeEnergyCell>, [<ThermalExpansion:Cell>]);
