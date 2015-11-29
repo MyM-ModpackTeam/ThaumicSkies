@@ -1,0 +1,177 @@
+<!-- 
+Custom recipes that will not be over written by Ender IO are added here.
+Examples of recipes can be found in AlloySmelterRecipes_Core.xml and general format
+documentation in SAGMillRecipes_Core/User.
+
+As well as adding custom recipes the operation of the Alloy Smelter as a vanilla furnace 
+can be controlled. It can be disabled completely by simply adding this line:
+
+  <vanillaFurnaceRecipes enabled="false"/>    
+
+It is also possible to selectively disable vanilla furnace recipes.
+The following example disables the smelting of iron ingots, ender pearls and any form of iron ore registered in the
+ore dictionary.
+
+  <vanillaFurnaceRecipes>    
+    <exclude>
+      <itemStack itemID="265" /> 
+      <itemStack itemID="368" /> 
+      <itemStack oreDictionary="oreIron" />  
+    </exclude>
+
+  </vanillaFurnaceRecipes>
+  
+  Add this line to disbale the creation of TE alloys using the Alloy Smelter.
+  <recipeGroup name="Thermal Expansion" enabled="false"/>
+-->
+
+<AlloySmelterRecipes>
+  <recipeGroup name="EnderIO" enabled="false"/>
+  <recipeGroup name="Thermal Expansion" enabled="false"/>
+
+  <recipeGroup name="Fixes">
+    
+    <recipe name="Fused Quartz" energyCost="5000">
+      <input>
+        <itemStack modID="minecraft" itemName="quartz" number="4" />
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="0" exp="0.5" />
+      </output>
+    </recipe>
+
+    <recipe name="Fused Quartz 2 Slots" energyCost="10000">
+      <input>
+        <itemStack modID="minecraft" itemName="quartz" number="4" />
+        <itemStack modID="minecraft" itemName="quartz" number="4" />
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="0" exp="0.5" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="Fused Quartz 3 Slots" energyCost="15000">
+      <input>
+        <itemStack modID="minecraft" itemName="quartz" number="4" />
+        <itemStack modID="minecraft" itemName="quartz" number="4" />
+        <itemStack modID="minecraft" itemName="quartz" number="4" />
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="0" exp="0.5" number="3" />
+      </output>
+    </recipe>
+
+    <recipe name="Fused Glass" energyCost="2500">
+      <input>
+        <itemStack oreDictionary="sand" />
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="1" exp="0.2" />
+      </output>
+    </recipe>
+
+    <recipe name="Fused Glass 2 Slots" energyCost="5000">
+      <input>
+        <itemStack oreDictionary="sand" />
+        <itemStack oreDictionary="sand" />
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="1" exp="0.2" number="2" />
+      </output>
+    </recipe>
+
+    <recipe name="Fused Glass 3 Slots" energyCost="7500">
+      <input>
+        <itemStack oreDictionary="sand" />
+        <itemStack oreDictionary="sand" />
+        <itemStack oreDictionary="sand" />
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="1" exp="0.2" number="3" />
+      </output>
+    </recipe>
+
+
+    <recipe name="Enlightened Fused Quartz" energyCost="5000">
+      <input>
+        <itemStack modID="minecraft" itemName="quartz" number="4" />
+        <itemStack modID="minecraft" itemName="glowstone_dust" number="4" />
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="2" exp="0.5" />
+      </output>
+    </recipe>
+
+    <recipe name="Enlightened Fused Quartz 2" energyCost="5000">
+      <input>
+        <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="0" />
+        <itemStack modID="minecraft" itemName="glowstone_dust" number="4" />
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="2" exp="0.5" />
+      </output>
+    </recipe>
+
+    <recipe name="Enlightened Fused Glass" energyCost="2500">
+      <input>
+        <itemStack oreDictionary="sand" />
+        <itemStack modID="minecraft" itemName="glowstone_dust" number="4" />
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="3" exp="0.2" />
+      </output>
+    </recipe>
+
+    <recipe name="Enlightened Fused Glass 2" energyCost="2500">
+      <input>
+        <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="1" />
+        <itemStack modID="minecraft" itemName="glowstone_dust" number="4" />
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="3" exp="0.2" />
+      </output>
+    </recipe>
+
+    <recipe name="Enlightened Fused Quartz from Block" energyCost="5000">
+      <input>
+        <itemStack modID="minecraft" itemName="quartz_block" number="1" />
+        <itemStack modID="minecraft" itemName="glowstone_dust" number="4" />
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="2" exp="0.5" />
+      </output>
+    </recipe>
+
+    <recipe name="Enlightened Fused Quartz from Block 2" energyCost="5000">
+      <input>
+        <itemStack modID="minecraft" itemName="quartz_block" number="1" />
+        <itemStack modID="minecraft" itemName="glowstone" number="1" />
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="2" exp="0.5" />
+      </output>
+    </recipe>
+
+    <recipe name="Enlightened Fused Quartz from Block 3" energyCost="5000">
+      <input>
+        <itemStack modID="minecraft" itemName="quartz" number="4" />
+        <itemStack modID="minecraft" itemName="glowstone" number="1" />
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="2" exp="0.5" />
+      </output>
+    </recipe>
+
+    <recipe name="Enlightened Fused Quartz from Block 4" energyCost="5000">
+      <input>
+        <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="0" />
+        <itemStack modID="minecraft" itemName="glowstone" number="1" />
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="2" exp="0.5" />
+      </output>
+    </recipe>
+
+  </recipeGroup>
+</AlloySmelterRecipes>  
+

@@ -1,0 +1,132 @@
+{
+  "book": [
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Lorem ipsum",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FFFFFAF0",
+            "xPos": 117,
+            "yPos": 74,
+            "width": 170.0,
+            "height": 178.0
+          }
+        },
+        {
+          "type": "FeatureRecipe",
+          "properties": {
+            "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+            "recipeType": "ShapedOreRecipe",
+            "item": "minecraft:piston",
+            "xPos": 58,
+            "yPos": 27,
+            "width": 128.0,
+            "height": 64.0
+          }
+        },
+        {
+          "type": "FeatureRecipe",
+          "properties": {
+            "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+            "recipeType": "ShapedOreRecipe",
+            "item": "minecraft:piston",
+            "xPos": 57,
+            "yPos": 110,
+            "width": 128.0,
+            "height": 64.0
+          }
+        },
+        {
+          "type": "FeatureRecipe",
+          "properties": {
+            "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+            "recipeType": "ShapedOreRecipe",
+            "item": "minecraft:piston",
+            "xPos": 0,
+            "yPos": 0,
+            "width": 128.0,
+            "height": 64.0
+          }
+        },
+        {
+          "type": "FeatureRecipe",
+          "properties": {
+            "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+            "recipeType": "ShapedOreRecipe",
+            "item": "minecraft:piston",
+            "xPos": 0,
+            "yPos": 0,
+            "width": 128.0,
+            "height": 64.0
+          }
+        },
+        {
+          "type": "FeatureRecipe",
+          "properties": {
+            "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+            "recipeType": "ShapedOreRecipe",
+            "item": "minecraft:piston",
+            "xPos": 0,
+            "yPos": 0,
+            "width": 128.0,
+            "height": 64.0
+          }
+        },
+        {
+          "type": "FeatureRecipe",
+          "properties": {
+            "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+            "recipeType": "ShapedOreRecipe",
+            "item": "minecraft:piston",
+            "xPos": 0,
+            "yPos": 0,
+            "width": 128.0,
+            "height": 64.0
+          }
+        },
+        {
+          "type": "FeatureRecipe",
+          "properties": {
+            "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+            "recipeType": "ShapedOreRecipe",
+            "item": "minecraft:piston",
+            "xPos": 0,
+            "yPos": 0,
+            "width": 128.0,
+            "height": 64.0
+          }
+        },
+        {
+          "type": "FeatureRecipe",
+          "properties": {
+            "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+            "recipeType": "ShapedOreRecipe",
+            "item": "minecraft:piston",
+            "xPos": 0,
+            "yPos": 0,
+            "width": 128.0,
+            "height": 64.0
+          }
+        }
+      ],
+      "pageName": ""
+    }
+  ],
+  "uniqueName": "Project__Fenix",
+  "color": 16777215,
+  "showBackground": true,
+  "showArrows": true,
+  "showNumber": true,
+  "iconPass1": "",
+  "iconPass2": "",
+  "iconColorisePass1": false,
+  "iconColorisePass2": false,
+  "iconColorPass1": 0,
+  "iconColorPass2": 0,
+  "language": "en_US",
+  "displayName": "Project__Fenix",
+  "displayInCreative": true
+}
