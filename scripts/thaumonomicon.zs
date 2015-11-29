@@ -40,7 +40,7 @@ mods.thaumcraft.Research.addCruciblePage("OREBASIC", <Thaumcraft:blockCustomOre:
 
 
 #Metal Ores
-mods.thaumcraft.Research.addResearch("OREMETAL", "THAUMICSKIES", "metallum 8, ordo 4, permutatio 4", -1, 2, 0, <minecraft:gold_ore>);
+mods.thaumcraft.Research.addResearch("OREMETAL", "THAUMICSKIES", "metallum 8, ordo 4, permutatio 4", -2, 2, 0, <minecraft:gold_ore>);
 game.setLocalization("en_US", "tc.research_name.OREMETAL", "Metal Ores");
 game.setLocalization("en_US", "tc.research_text.OREMETAL", "[TS] Shiny!");
 mods.thaumcraft.Research.addPage("OREMETAL", "ts.research_page.OREMETAL");
@@ -58,11 +58,11 @@ mods.thaumcraft.Research.addCruciblePage("OREMETAL", <bluepower:tungsten_ore>);
 mods.thaumcraft.Research.addPrereq("OREMETAL", "OREBASIC", false);
 
 #Gem Ores
-mods.thaumcraft.Research.addResearch("OREGEM", "THAUMICSKIES", "vitreus 8, ordo 4, potentia 4", 1, 2, 0, <minecraft:diamond_ore>);
+mods.thaumcraft.Research.addResearch("OREGEM", "THAUMICSKIES", "vitreus 8, ordo 4, potentia 4", 2, 2, 0, <minecraft:diamond_ore>);
 game.setLocalization("en_US", "tc.research_name.OREGEM", "Gem Ores");
 game.setLocalization("en_US", "tc.research_text.OREGEM", "[TS] It sparkles!");
 mods.thaumcraft.Research.addPage("OREGEM", "ts.research_page.OREGEM");
-game.setLocalization("en_US", "ts.research_page.OREGEM", "Screw metals. You've made shiny things! Using coal as a base for other crystalline materials has proved a genius idea! Try not to overdo the diamonds...");
+game.setLocalization("en_US", "ts.research_page.OREGEM", "Screw metals. You've made shiny things! Using coal as a base for other crystalline materials has proved a genius idea! So many diamonds...");
 mods.thaumcraft.Research.addCruciblePage("OREGEM", <minecraft:lapis_ore>);
 mods.thaumcraft.Research.addCruciblePage("OREGEM", <minecraft:redstone_ore>);
 mods.thaumcraft.Research.addCruciblePage("OREGEM", <minecraft:diamond_ore>);
@@ -77,6 +77,18 @@ mods.thaumcraft.Research.addCruciblePage("OREGEM", <bluepower:sapphire_ore>);
 mods.thaumcraft.Research.addCruciblePage("OREGEM", <bluepower:amethyst_ore>);
 mods.thaumcraft.Research.addPrereq("OREGEM", "OREBASIC", false);
 
+#Nether Ores
+mods.thaumcraft.Research.addResearch("ORENETHER", "THAUMICSKIES", "infernus 8, ignis 4, metallum 4", 0, 2, 0, <minecraft:quartz_ore>);
+game.setLocalization("en_US", "tc.research_name.ORENETHER", "Nether Ores");
+game.setLocalization("en_US", "tc.research_text.ORENETHER", "[TS] I've got a bad feeling about this...");
+mods.thaumcraft.Research.addPage("ORENETHER", "ts.research_page.ORENETHER");
+game.setLocalization("en_US", "ts.research_page.ORENETHER", "Uh oh. You found a way to make materials from Hell by infusing netherrack with a base ingredient instead of stone. You're sure this will come back to haunt you later on...");
+mods.thaumcraft.Research.addCruciblePage("ORENETHER", <minecraft:quartz_ore>);
+mods.thaumcraft.Research.addCruciblePage("ORENETHER", <TConstruct:SearedBrick:2>);
+mods.thaumcraft.Research.addCruciblePage("ORENETHER", <TConstruct:SearedBrick:1>);
+mods.thaumcraft.Research.addPrereq("ORENETHER", "OREBASIC", false);
+mods.thaumcraft.Warp.addToResearch("ORENETHER", 5);
+
 #Advanced Ores
 mods.thaumcraft.Research.addResearch("OREADVANCED", "THAUMICSKIES", "metallum 32, praecantatio 8, permutatio 8, superbia 8, gula 8", 0, 4, 4, <ThermalFoundation:Ore:5>);
 game.setLocalization("en_US", "tc.research_name.OREADVANCED", "Advanced Ore Creation");
@@ -87,6 +99,7 @@ mods.thaumcraft.Research.addInfusionPage("OREADVANCED", <ThermalFoundation:Ore:5
 mods.thaumcraft.Research.addInfusionPage("OREADVANCED", <DraconicEvolution:draconiumOre>);
 mods.thaumcraft.Research.addPrereq("OREADVANCED", "OREGEM", false);
 mods.thaumcraft.Research.addPrereq("OREADVANCED", "OREMETAL", false);
+mods.thaumcraft.Research.addPrereq("OREADVANCED", "ORENETHER", false);
 
 #Thaumic Skies Intro
 mods.thaumcraft.Research.addResearch("TSINTRO", "THAUMICSKIES", "", -1, -2, 0, <Thaumcraft:ItemThaumonomicon>);
