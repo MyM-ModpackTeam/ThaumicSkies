@@ -4,3 +4,4 @@
 * Gadomancy Gate of the Voidwalkers is a one way portal. Make sure to have a way back out once you are done and a way back in case of dying.
 * Thaumic Bases Overchanting Table can increase any enchant level by one. Fortune IV and Protection V are possible enchants.
 * All Withers, Eldritch Guardians and Hellfish are infernal. Be prepared!
+* The Gadomancy Ethereal Familiar can be a very strong ally in fights. Making one early can be extremely beneficial, especially when fighting infernals.

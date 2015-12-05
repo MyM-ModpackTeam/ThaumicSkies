@@ -102,35 +102,15 @@ mods.thaumcraft.Research.addPrereq("OREADVANCED", "OREMETAL", false);
 mods.thaumcraft.Research.addPrereq("OREADVANCED", "ORENETHER", false);
 
 #Thaumic Skies Intro
-mods.thaumcraft.Research.addResearch("TSINTRO", "THAUMICSKIES", "", -1, -2, 0, <Thaumcraft:ItemThaumonomicon>);
-game.setLocalization("en_US", "tc.research_name.TSINTRO", "Welcome to Thaumic Skies!");
-game.setLocalization("en_US", "tc.research_text.TSINTRO", "[TS] Not your usual changelog");
+mods.thaumcraft.Research.addResearch("TSINTRO", "THAUMICSKIES", "", 0, -2, 0, <Thaumcraft:ItemThaumonomicon>);
+game.setLocalization("en_US", "tc.research_name.TSINTRO", "Welcome to Thaumic Skies");
+game.setLocalization("en_US", "tc.research_text.TSINTRO", "[TS] Guidance System Online!");
 mods.thaumcraft.Research.addPage("TSINTRO", "ts.research_page.TSINTRO1");
-game.setLocalization("en_US", "ts.research_page.TSINTRO1", "Thanks for playing Thaumic Skies! This modpack is all about using/learning Thaumcraft and resource production via the crucible. Lots of changes have been made, of which the major ones will be listed here.<LINE> World Generation:<BR>Since this is a skyblock, any and all world generated items/structures have been adjusted so that you can create them.");
-
-mods.thaumcraft.Research.addPage("TSINTRO", "ts.research_page.TSINTRO2");
-game.setLocalization("en_US", "ts.research_page.TSINTRO2", "- Ores have been moved to the Thaumcraft Crucible. More information on this is obtainable via the research in this tab.<BR>- AE2 Presses have new recipes via Ex Nihilo Hammer. Skystone is made by using skystone dust on a barrel of lava.<BR>- Botania petals can be aquired via Agricraft breeding and mystial flowers can be made in the Petal Apothecary. Check NEI for more details.");
-
-mods.thaumcraft.Research.addPage("TSINTRO", "ts.research_page.TSINTRO3");
-game.setLocalization("en_US", "ts.research_page.TSINTRO3", "- Thaumcraft tainted soil and crusted taint have crucible recipes. Check NEI for them. The Outerlands Dimension is available with Gadomancy's Gate of the Voidwalkers. All necessary items have recipes which can be found in NEI. CAUTION: The portal is a one time use and there is no way back, so make sure you are prepared for the boss fight and have some sort of item to get back to your base!<LINE>");
-
-mods.thaumcraft.Research.addPage("TSINTRO", "ts.research_page.TSINTRO4");
-game.setLocalization("en_US", "ts.research_page.TSINTRO4", "Progression:<BR>This pack includes some forced progression through mods like Thaumcraft, Botania, and several others. Books are available in the bookcase on your island to help guide you through game mechanics you may not have used before and are not explained in this tab. You will need parts from most mods to be successful in this pack.<BR>- Almost all alloys you come accross will be made in the Tinkers' Construct Smeltery. Make use of Tinker I/O and Thermal Smeltery to facilitate this process. Most recipes in the Alloy Smelter or Induction Smelter have been disabled.<LINE>");
+game.setLocalization("en_US", "ts.research_page.TSINTRO1", "Thanks for playing Thaumic Skies! This modpack is all about using/learning Thaumcraft and resource production via the crucible. Lots of changes have been made and additional information is available on the packs official GitHub repository. Please go to the link below to find out more information about changes, mods ans licensing, as well as some guides on how to get started, how to use Thaumcraft and some general Tips and Tricks!<LINE>https://github.com/MyM-ModpackTeam/ThaumicSkies/blob/master/README.md");
 
 mods.thaumcraft.Research.setRound("TSINTRO", true);
 mods.thaumcraft.Research.setAutoUnlock("TSINTRO", true);
 
-#Thaumcraft Mechanics Intro
-#Thaumic Skies Intro
-mods.thaumcraft.Research.addResearch("TMINTRO", "THAUMICSKIES", "", 1, -2, 0, <Thaumcraft:blockMetalDevice>);
-game.setLocalization("en_US", "tc.research_name.TMINTRO", "Thaumcraft 101");
-game.setLocalization("en_US", "tc.research_text.TMINTRO", "[TS] Learning to magic");
-
-mods.thaumcraft.Research.addPage("TMINTRO", "ts.research_page.TMINTRO1");
-game.setLocalization("en_US", "ts.research_page.TMINTRO1", "Thaumcraft is a mod that many love and many hate. It offers great utility items and interesting game mechanics but can be a bit complex and turn players from it. This section will give a brief overview of basic Thaumcraft Mechanics and how you will need them in this pack. More info can be found in the respective Thaumcraft tabs.<LINE>Aspects:<BR> Aspects are the building blocks of the Minecraft world. Think of them as the elements that compose matter in the Minecraftian Universe.");
-
-mods.thaumcraft.Research.setRound("TMINTRO", true);
-mods.thaumcraft.Research.setAutoUnlock("TMINTRO", true);
 
 
 
