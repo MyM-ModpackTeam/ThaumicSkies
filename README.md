@@ -1,7 +1,9 @@
 # ThaumicSkies
 Welcome to **Thaumic Skies**! This modpack is a skyblock centered around the Thaumcraft Crucible and offers an expansive collection of mods that make for exciting and lasting Minecraft experience. 
 
-M
+# Additional Information
+* Beginner's Guide
+* Changes
 
 # Mods & Permissions
 **Core Mods:**
@@ -106,4 +108,4 @@ M
 * WAILA Plugins  
 * WAWLA  
 
-https://docs.google.com/spreadsheets/d/1rqOnc2B9PHJvm6slR8RRs7aNoI_KgYVxJQlU2uLOFf0/edit#gid=0&vpid=A1
+[Permissions & Licensing](https://docs.google.com/spreadsheets/d/1rqOnc2B9PHJvm6slR8RRs7aNoI_KgYVxJQlU2uLOFf0/edit#gid=0&vpid=A1)
