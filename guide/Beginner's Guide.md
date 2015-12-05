@@ -18,4 +18,16 @@ The **Rosa Arcana** is a researcher's best friend. This plant, when planted on a
 
 
 ### Brave New World
-The beginning to **Thaumic Skies** is very similar to other skyblocks. Start by harvesting wood with the provided saplings make sure to use the watering
+The beginning to **Thaumic Skies** is very similar to other skyblocks. Start by harvesting wood with the provided saplings and make sure to use the watering to accelerate their growth. Veinminer is included in this pack and can be used to chop down an entire tree in one fell swoop. Set the keybind in the controls (Default: GRAVE) and hold it down while breaking a block with an empty hand/tool to break all connected blocks of the same kind.  
+
+After you have some wood, make a **Crook**. This tool will increase the sapling drop rate when breaking leaves and also give a chance for a **Silkworm**. The **Silkworm** can infest tree leaves and turn them into infested leaves after some time. These infested leaves have a chance to drop string when broken.  
+
+Using the wood and string you have obtained, make a **Barrel** and a **Sieve**. The **Barrel** can be used to compost organic materials into dirt. This dirt can then be sieved to obtain a variety of different items, including seeds, feathers, ink sacs and most importantly stones. Stones can be crafted in a 2x2 to make cobblestone. After obtaining cobblestone, make a **Slab Furnace**. It is cheaper than a regular furnace in terms of cobblestone and functions exactly the same, which means less sieving for stone.  
+
+Next step is to get lava to produce infinite cobblestone. In order to get lava you will need a Ex Nihilo **Crucible**, which is made with porcelain clay. This requires regular clay and bone meal. Breaking **Cobblestone** with an Ex Nihilo **Hammer** will return **Gravel**. Breaking **Gravel** with a hammer gives **Sand** and breaking **Sand** gives **Dust**. Using dust on a barrel filled with water will make clay. The bone meal can be obtained by making a mob farm and killing skeletons for their bones. After crafting the unfired crucible, throw it in the furnace to get your **Crucible**.  
+
+The **Crucible** can be used to melt down cobblestone to lava. Place down the crucible and put a source of heat underneath, like a torch, lava or blazing pyrotheum. Put some cobblestone into it and watch it melt. The hotter the material under the crucible, the faster the contents will melt. Make a clay bucket and fire it in a furnace to move the lava once you have a full bucket. You will need 4 cobblestone per bucket of lava. **Note:** The clay bucket will break after placing lava.  
+
+Now that you have a steady source of cobble, its time to make some Thaumcraft essentials. Breaking compressed cobblestone with a hammer will give an **Iron Nugget** 25% of the time. Using these you can make a Thaumcraft **Crucible** and an **Iron-Capped Wooden Wand**. You will also need a **Research Table**, which can be made by using **Scribing Tools** on two adjacent Thaumcraft **Tables**. If you don't know how to research stuff in the Thaumonomicon see the [Thaumcraft Basics](https://github.com/MyM-ModpackTeam/ThaumicSkies/blob/master/guide/Thaumcraft%20Basics.md) guide.
+
+There is a tab in the **Thaumonomicon** for **Thaumic Skies** which contains all the ore research. After researching the required notes you will be able to make ores in the crucible with the given recipes. From here you will be able to move on to whatever mod you wish to start first.
