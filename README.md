@@ -3,7 +3,7 @@ Welcome to **Thaumic Skies**! This modpack is a skyblock centered around the Tha
 
 # Additional Information
 * [Beginner's Guide](https://github.com/MyM-ModpackTeam/ThaumicSkies/blob/master/guide/Beginner's%20Guide.md)
-* [Features & Changes]()
+* [Features & Changes](https://github.com/MyM-ModpackTeam/ThaumicSkies/blob/master/guide/Features%20%26%20Changes.md)
 
 # Mods & Permissions
 **Core Mods:**
