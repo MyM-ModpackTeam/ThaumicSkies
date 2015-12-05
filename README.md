@@ -2,8 +2,8 @@
 Welcome to **Thaumic Skies**! This modpack is a skyblock centered around the Thaumcraft Crucible and offers an expansive collection of mods that make for exciting and lasting Minecraft experience. 
 
 # Additional Information
-* Beginner's Guide
-* Changes
+* [Beginner's Guide](https://github.com/MyM-ModpackTeam/ThaumicSkies/blob/master/guide/Beginner's%20Guide.md)
+* [Features & Changes]()
 
 # Mods & Permissions
 **Core Mods:**
