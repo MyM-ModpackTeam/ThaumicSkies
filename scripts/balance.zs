@@ -83,8 +83,14 @@ mods.thermalexpansion.Smelter.removeRecipe(<ore:ingotIron>, <ore:dustCoal>);
 recipes.removeShapeless(<TConstruct:materials:42>);
 recipes.removeShapeless(<TConstruct:materials:41>);
 
-#Thaumcraft Aspects
+#Compressed Cobble/Bedrockium
+furnace.remove(<ExtraUtilities:block_bedrockium>);
+recipes.removeShaped(<ExtraUtilities:cobblestone_compressed:4>);
+recipes.removeShaped(<ExtraUtilities:cobblestone_compressed:5>);
+recipes.removeShaped(<ExtraUtilities:cobblestone_compressed:6>);
+recipes.removeShaped(<ExtraUtilities:cobblestone_compressed:7>);
 
+#Thaumcraft Aspects
 mods.thaumcraft.Aspects.set(<thaumicbases:resource>, "");
 
 for item in <ore:nuggetIron>.items{

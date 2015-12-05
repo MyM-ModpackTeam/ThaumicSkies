@@ -46,6 +46,9 @@ recipes.addShaped(<evilcraft:environmentalAccumulationCore>, [[<evilcraft:darkPo
 #Tinkers' Construct
 recipes.addShapeless(<TConstruct:slime.sapling>, [<ore:treeSapling>, <ore:slimeball>]);
 
+#Chisel
+
+
 
 
 

@@ -31,3 +31,4 @@ mods.thaumcraft.Crucible.addRecipe("ALCHEMICALMANUFACTURE", <minecraft:egg>, <mi
 
 #Creative Cell Equivalency
 recipes.addShapeless(<appliedenergistics2:tile.BlockCreativeEnergyCell>, [<ThermalExpansion:Cell>]);
+
