@@ -24,13 +24,13 @@ recipes.removeShaped(<ThermalFoundation:material:131>);
 #Ferrous
 recipes.removeShaped(<ThermalFoundation:material:132>);
 mods.thermalexpansion.Pulverizer.removeRecipe(<ore:oreNickel>);
-mods.thermalexpansion.Pulverizer.addRecipe(4000, <ThermalFoundation:Ore:4>, <ThermalFoundation:material:36> * 2);
+//mods.thermalexpansion.Pulverizer.addRecipe(4000, <ThermalFoundation:Ore:4>, <ThermalFoundation:material:36> * 2);
 mods.thermalexpansion.Pulverizer.removeRecipe(<exnihilo:nickel_gravel>);
-mods.thermalexpansion.Pulverizer.addRecipe(4000, <exnihilo:nickel_gravel>, <ThermalFoundation:material:36> * 2);
+//mods.thermalexpansion.Pulverizer.addRecipe(4000, <exnihilo:nickel_gravel>, <ThermalFoundation:material:36> * 2);
 mods.thermalexpansion.Pulverizer.removeRecipe(<exnihilo:nickel_sand>);
-mods.thermalexpansion.Pulverizer.addRecipe(4000, <exnihilo:nickel_sand>, <ThermalFoundation:material:36> * 2);
+//mods.thermalexpansion.Pulverizer.addRecipe(4000, <exnihilo:nickel_sand>, <ThermalFoundation:material:36> * 2);
 mods.thermalexpansion.Pulverizer.removeRecipe(<exnihilo:nickel_dust>);
-mods.thermalexpansion.Pulverizer.addRecipe(4000, <exnihilo:nickel_dust>, <ThermalFoundation:material:36> * 2);
+//mods.thermalexpansion.Pulverizer.addRecipe(4000, <exnihilo:nickel_dust>, <ThermalFoundation:material:36> * 2);
 
 #Shiny
 recipes.removeShaped(<ThermalFoundation:material:133>);
