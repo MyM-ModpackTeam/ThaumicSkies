@@ -28,7 +28,6 @@ Welcome to **Thaumic Skies**! This modpack is a skyblock centered around the Tha
 * Dimensional Pockets  
 * Draconic Evolution  
 * Electro-Magic Tools  
-* Enchiridion  
 * Ender IO  
 * Ender IO Addons  
 * Ender Storage  
@@ -94,6 +93,7 @@ Welcome to **Thaumic Skies**! This modpack is a skyblock centered around the Tha
 
 **Utility Mods**
 * Chicken Chunks  
+* * Enchiridion  
 * I'm Looking At Blood  
 * Inventory Tweaks  
 * Minetweaker 3  
