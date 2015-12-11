@@ -12,8 +12,8 @@ mods.exnihilo.Sieve.addRecipe(<exnihilo:dust>,[<minecraft:dye:15>, <minecraft:re
 
 #Sieve Additions
 mods.exnihilo.Sieve.addRecipe(<Thaumcraft:blockTaint:1>, [<Thaumcraft:blockCustomPlant>, <Thaumcraft:blockCustomPlant:1>], [10, 20]);
-mods.exnihilo.Sieve.addRecipe(<minecraft:dirt>, [<bluepower:flax_seeds>, <ImmersiveEngineering:seed>, <minecraft:dye>, <minecraft:feather>, <Botania:petal>], [33, 33, 33, 33, 10]);
+mods.exnihilo.Sieve.addRecipe(<minecraft:dirt>, [<bluepower:flax_seeds>, <ImmersiveEngineering:seed>, <minecraft:dye>, <minecraft:feather>, <Botania:petal>], [33, 33, 10, 10, 10]);
 
 
 #Hammer Additions
-mods.exnihilo.Hammer.addRecipe(<ExtraUtilities:cobblestone_compressed>, <Thaumcraft:ItemNugget>, 0.25, 0.25);
+mods.exnihilo.Hammer.addRecipe(<ExtraUtilities:cobblestone_compressed>, <Thaumcraft:ItemNugget>, 1, 0);

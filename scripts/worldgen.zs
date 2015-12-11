@@ -33,6 +33,8 @@ mods.botania.Apothecary.addRecipe(<Botania:flower:14>, [<Botania:petal:14>, <Bot
 mods.botania.Apothecary.addRecipe(<Botania:flower:15>, [<Botania:petal:15>, <Botania:petal:15>]);
 
 #Thaumcraft Stuff
+mods.thaumcraft.Crucible.addRecipe("ALCHEMICALMANUFACTURE", <appliedenergistics2:item.ItemMultiMaterial:1>, <appliedenergistics2:item.ItemMultiMaterial>, "potentia 16");
+
 mods.thaumcraft.Infusion.addRecipe("INFUSION", <minecraft:book>, [<TaintedMagic:CrystalBloodDrop>, <Thaumcraft:ItemResource:9>, <TaintedMagic:CrystalBloodDrop>, <Thaumcraft:ItemResource:9>, <TaintedMagic:CrystalBloodDrop>, <Thaumcraft:ItemResource:9>, <TaintedMagic:CrystalBloodDrop>, <Thaumcraft:ItemResource:9>], "cognitio 32, alienis 32, praecantatio 32", <Thaumcraft:ItemEldritchObject:1>, 10);
 
 mods.thaumcraft.Arcane.addShaped("ASPECTS", <Thaumcraft:FocusPech>, "perditio 50", [[<Thaumcraft:ItemShard:5>, <minecraft:quartz>, <Thaumcraft:ItemShard:5>], [<minecraft:quartz>, <minecraft:poisonous_potato>, <minecraft:quartz>], [<Thaumcraft:ItemShard:5>, <minecraft:quartz>, <Thaumcraft:ItemShard:5>]]);
