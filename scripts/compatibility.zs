@@ -32,3 +32,7 @@ mods.thaumcraft.Crucible.addRecipe("ALCHEMICALMANUFACTURE", <minecraft:egg>, <mi
 #Creative Cell Equivalency
 recipes.addShapeless(<appliedenergistics2:tile.BlockCreativeEnergyCell>, [<ThermalExpansion:Cell>]);
 
+#Molten Manasteel
+mods.tconstruct.Smeltery.addMelting(<Botania:manaResource>, <liquid:manasteel.molten> * 144, 550, <Botania:storage>);
+mods.tconstruct.Smeltery.addMelting(<Botania:storage>, <liquid:manasteel.molten> * 1296, 550, <Botania:storage>);
+mods.tconstruct.Smeltery.addMelting(<ore:nuggetManasteel>, <liquid:manasteel.molten> * 16, 550, <Botania:storage>);

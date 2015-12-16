@@ -10,11 +10,7 @@ mods.exnihilo.Sieve.addRecipe(<EnderIO:blockIngotStorage:2>, <appliedenergistics
 mods.appeng.Inscriber.removeRecipe(<appliedenergistics2:item.ItemMultiMaterial:14>);
 mods.exnihilo.Sieve.addRecipe(<ThermalFoundation:Storage:12>, <appliedenergistics2:item.ItemMultiMaterial:14>, 1);
 
-#Botania Flowers
-mods.botania.Apothecary.removeRecipe("daybloom");
-mods.botania.Apothecary.addRecipe("daybloom", [<Thaumcraft:ItemResource:1>, <minecraft:glowstone_dust>, <minecraft:torch>]);
-mods.botania.Apothecary.removeRecipe("nightshade");
-mods.botania.Apothecary.addRecipe("nightshade", [<Thaumcraft:ItemResource>, <minecraft:redstone>, <minecraft:obsidian>]);
+#Botania
 mods.botania.Apothecary.addRecipe(<Botania:flower>, [<Botania:petal>, <Botania:petal>]);
 mods.botania.Apothecary.addRecipe(<Botania:flower:1>, [<Botania:petal:1>, <Botania:petal:1>]);
 mods.botania.Apothecary.addRecipe(<Botania:flower:2>, [<Botania:petal:2>, <Botania:petal:2>]);
@@ -31,6 +27,7 @@ mods.botania.Apothecary.addRecipe(<Botania:flower:12>, [<Botania:petal:12>, <Bot
 mods.botania.Apothecary.addRecipe(<Botania:flower:13>, [<Botania:petal:13>, <Botania:petal:13>]);
 mods.botania.Apothecary.addRecipe(<Botania:flower:14>, [<Botania:petal:14>, <Botania:petal:14>]);
 mods.botania.Apothecary.addRecipe(<Botania:flower:15>, [<Botania:petal:15>, <Botania:petal:15>]);
+recipes.addShaped(<minecraft:dirt:2>, [[<ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>],[<ore:treeLeaves>, <minecraft:dirt>, <ore:treeLeaves>],[<ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>]]);
 
 #Thaumcraft Stuff
 mods.thaumcraft.Crucible.addRecipe("ALCHEMICALMANUFACTURE", <appliedenergistics2:item.ItemMultiMaterial:1>, <appliedenergistics2:item.ItemMultiMaterial>, "potentia 16");
