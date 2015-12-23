@@ -36,3 +36,7 @@ recipes.addShapeless(<appliedenergistics2:tile.BlockCreativeEnergyCell>, [<Therm
 mods.tconstruct.Smeltery.addMelting(<Botania:manaResource>, <liquid:manasteel.molten> * 144, 550, <Botania:storage>);
 mods.tconstruct.Smeltery.addMelting(<Botania:storage>, <liquid:manasteel.molten> * 1296, 550, <Botania:storage>);
 mods.tconstruct.Smeltery.addMelting(<ore:nuggetManasteel>, <liquid:manasteel.molten> * 16, 550, <Botania:storage>);
+
+#Recipe Conflicts
+recipes.removeShaped(<ExtraUtilities:curtains>);
+recipes.addShaped(<ExtraUtilities:curtains> * 16, [[<minecraft:wool>, <minecraft:wool>, <minecraft:wool>],[<minecraft:wool>, <minecraft:wool>, <minecraft:wool>],[<minecraft:wool>, <minecraft:wool>, <minecraft:wool>]]);

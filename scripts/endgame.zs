@@ -15,7 +15,7 @@ mods.avaritia.ExtremeCrafting.addShaped(<ExtraUtilities:angelRing>, [
 [null, <chisel:cloud>, <chisel:cloud>, <minecraft:gold_block>, <minecraft:gold_block>, <minecraft:gold_block>, <chisel:cloud>, <chisel:cloud>, null],
 [null, null, <minecraft:gold_block>, <minecraft:nether_star>, <Botania:flightTiara>, <minecraft:nether_star>, <minecraft:gold_block>, null, null],
 [null, <minecraft:gold_block>, <minecraft:nether_star>, <minecraft:nether_star>, <EMT:QuantumWing:1>, <minecraft:nether_star>, <minecraft:nether_star>, <minecraft:gold_block>, null],
-[null, <minecraft:gold_block>, <AWWayofTime:airSigil>, <simplyjetpacks:jetpacks:5>, <rftools:flightEModuleItem>, <simplyjetpacks:jetpacksEIO:5>, <AWWayofTime:sigilOfTheBridge>, <minecraft:gold_block>, null],
+[null, <minecraft:gold_block>, <AWWayofTime:airSigil>, <simplyjetpacks:jetpacks:5>, <minecraft:feather>, <simplyjetpacks:jetpacksEIO:5>, <AWWayofTime:sigilOfTheBridge>, <minecraft:gold_block>, null],
 [null, <minecraft:gold_block>, <minecraft:nether_star>, <minecraft:nether_star>, <IC2:itemArmorJetpackElectric:1>, <minecraft:nether_star>, <minecraft:nether_star>, <minecraft:gold_block>, null],
 [null, null, <minecraft:gold_block>, <minecraft:nether_star>, <Thaumcraft:HoverHarness>, <minecraft:nether_star>, <minecraft:gold_block>, null, null],
 [null, null, null, <minecraft:gold_block>, <minecraft:gold_block>, <minecraft:gold_block>, null, null, null]]);

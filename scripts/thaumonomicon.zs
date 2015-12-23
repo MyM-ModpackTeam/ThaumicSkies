@@ -1,14 +1,5 @@
 #Thaumonomicon Pages
 
-mods.thaumcraft.Research.moveResearch("PUREORE", "ALCHEMY", -1, 7);
-mods.thaumcraft.Research.removeTab("AOBD");
-
-mods.thaumcraft.Research.moveResearch("DAGGER", "ARTIFICE", -10, 3);
-mods.thaumcraft.Research.moveResearch("SACRIFICEDAGGER", "ARTIFICE", -10, 4);
-mods.thaumcraft.Research.moveResearch("SLATE", "ARTIFICE", -10, 5);
-mods.thaumcraft.Research.moveResearch("RUNE", "ARTIFICE", -10, 6);
-mods.thaumcraft.Research.removeTab("ZARTERIES");
-
 mods.thaumcraft.Research.addTab("THAUMICSKIES", "thaumcraft", "textures/items/knowledgefragment.png");
 game.setLocalization("en_US", "tc.research_category.THAUMICSKIES", "Thaumic Skies");
 
@@ -67,7 +58,6 @@ mods.thaumcraft.Research.addCruciblePage("OREGEM", <minecraft:lapis_ore>);
 mods.thaumcraft.Research.addCruciblePage("OREGEM", <minecraft:redstone_ore>);
 mods.thaumcraft.Research.addCruciblePage("OREGEM", <minecraft:diamond_ore>);
 mods.thaumcraft.Research.addCruciblePage("OREGEM", <minecraft:emerald_ore>);
-mods.thaumcraft.Research.addCruciblePage("OREGEM", <rftools:dimensionalShardBlock>);
 mods.thaumcraft.Research.addCruciblePage("OREGEM", <Forestry:resources>);
 mods.thaumcraft.Research.addCruciblePage("OREGEM", <evilcraft:darkOre>);
 mods.thaumcraft.Research.addCruciblePage("OREGEM", <appliedenergistics2:tile.OreQuartz>);

@@ -16,6 +16,7 @@ Welcome to **Thaumic Skies**! This modpack is a skyblock centered around the Tha
 * Applied Energistics 2  
 * Arcane Arteries  
 * Armourer's Workshop  
+* Automagy  
 * Avaritia  
 * Baubles  
 * Bibliocraft  
@@ -59,7 +60,6 @@ Welcome to **Thaumic Skies**! This modpack is a skyblock centered around the Tha
 * Random Things  
 * Redstone Arsenal  
 * Remain In Motion  
-* RFTools  
 * Sanguimancy  
 * Sanguine Utilities  
 * Simply Jetpacks  
@@ -71,7 +71,10 @@ Welcome to **Thaumic Skies**! This modpack is a skyblock centered around the Tha
 * Thaumcraft 4  
 * Thaumic Bases  
 * Thaumic Energistics  
+* Thaumic Exploration  
+* Thaumic Horizons
 * Thaumic Tinkerer  
+* Thaumic Upholstry  
 * Thermal Dynamics  
 * Thermal Expansion  
 * Thermal Foundation  
@@ -80,6 +83,7 @@ Welcome to **Thaumic Skies**! This modpack is a skyblock centered around the Tha
 * Tinkers' Construct  
 * Tinkers' Tooltips  
 * Traveller's Gear  
+* Warp Theory  
 * Witching Gadgets  
 
 **Aesthetic Mods**
@@ -103,7 +107,10 @@ Welcome to **Thaumic Skies**! This modpack is a skyblock centered around the Tha
 * NEI Addons  
 * NEI Integration  
 * Not Enough Resources  
+* Not Enough Thaumcraft Tabs  
 * OpenPeripherals  
+* Omni-Things  
+* Thaumcraft Inventory Scanning  
 * Thaumcraft NEI Plugin  
 * Vein Miner  
 * Vein Miner Integration  

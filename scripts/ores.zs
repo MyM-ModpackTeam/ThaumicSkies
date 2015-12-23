@@ -33,7 +33,6 @@ mods.thaumcraft.Crucible.addRecipe("OREGEM", <minecraft:lapis_ore>, <minecraft:c
 mods.thaumcraft.Crucible.addRecipe("OREGEM", <minecraft:redstone_ore>, <minecraft:coal_ore>, "potentia 2");
 mods.thaumcraft.Crucible.addRecipe("OREGEM", <minecraft:diamond_ore>, <minecraft:coal_ore>, "lucrum 16, vitreus 4");
 mods.thaumcraft.Crucible.addRecipe("OREGEM", <minecraft:emerald_ore>, <minecraft:diamond_ore>, "lucrum 16, vitreus 4");
-mods.thaumcraft.Crucible.addRecipe("OREGEM", <rftools:dimensionalShardBlock>, <minecraft:diamond_ore>, "vitreus 4");
 mods.thaumcraft.Crucible.addRecipe("OREGEM", <Forestry:resources>, <minecraft:coal_ore>, "vitreus 2");
 
 mods.thaumcraft.Crucible.addRecipe("OREGEM", <evilcraft:darkOre>, <minecraft:stone>, "vitreus 2, tenebrae 2");
@@ -57,6 +56,8 @@ mods.thaumcraft.Infusion.addRecipe("OREADVANCED", <minecraft:stone>, [<ThaumicTi
 mods.thaumcraft.Infusion.addRecipe("ICHOR", <minecraft:nether_star>, [<DraconicEvolution:draconicIngot>, <DraconicEvolution:draconicIngot>, <DraconicEvolution:draconicIngot>, <DraconicEvolution:draconicIngot>, <DraconicEvolution:draconicIngot>, <DraconicEvolution:draconicIngot>, <DraconicEvolution:draconicIngot>, <DraconicEvolution:draconicIngot>], "praecantatio 64, alienis 32, bestia 32", <DraconicEvolution:dragonHeart>, 10);
 
 mods.thaumcraft.Infusion.addRecipe("ICHOR", <DraconicEvolution:dragonHeart>, [<DraconicEvolution:draconium>, <DraconicEvolution:draconium>, <DraconicEvolution:draconium>, <DraconicEvolution:draconium>], "praecantatio 64, fabrico 64", <DraconicEvolution:draconicBlock> * 4, 10);
+
+mods.thaumcraft.Infusion.addRecipe("OREADVANCED", <DraconicEvolution:draconiumIngot>, [<ThaumicTinkerer:kamiResource>, <ThaumicTinkerer:kamiResource>, <ThaumicTinkerer:kamiResource>, <ThaumicTinkerer:kamiResource>], "praecantatio 64, fabrico 64", <DraconicEvolution:draconicIngot> * 1, 10);
 
 #Blocks
 
