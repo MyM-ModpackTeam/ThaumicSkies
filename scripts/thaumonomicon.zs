@@ -101,9 +101,34 @@ game.setLocalization("en_US", "ts.research_page.TSINTRO1", "Thanks for playing T
 mods.thaumcraft.Research.setRound("TSINTRO", true);
 mods.thaumcraft.Research.setAutoUnlock("TSINTRO", true);
 
+##########################
+#Ender Tank Research Tree#
+##########################
 
+#Drum Reasearch
+mods.thaumcraft.Research.addResearch("EXDRUM", "THAUMICSKIES", "vacuos 16, ignis 4", 3, 4, 3, <ExtraUtilities:drum>);
+game.setLocalization("en_US", "tc.research_name.EXDRUM", "Drum, Drum....DRUMMYNESS!");
+game.setLocalization("en_US", "tc.research_text.EXDRUM", "Larager Storage you say?!");
+mods.thaumcraft.Research.addPage("EXDRUM", "ts.research_page.EXDRUM");
+game.setLocalization("en_US", "ts.research_page.EXDRUM", "When life gives you liquid, you need a larger storage. Drums are one of the best way to storage fluids providing 256 buckets in one block. Why wouldn't you use it?");
+mods.thaumcraft.Research.addArcanePage("EXDRUM", <ExtraUtilities:drum>);
 
+#Ender-Thermic Pump Research
+mods.thaumcraft.Research.addResearch("ENDERPUMP", "THAUMICSKIES", "machina 16, alienis 8, aqua 8, ignis 8", 5, 5, 4, <ExtraUtilities:enderThermicPump>);
+game.setLocalization("en_US", "tc.research_name.ENDERPUMP", "Pumps galore!");
+game.setLocalization("en_US", "tc.research_text.ENDERPUMP", "Your one step closer to infinite lava");
+mods.thaumcraft.Research.addPage("ENDERPUMP", "ts.research_page.ENDERPUMP");
+game.setLocalization("en_US", "ts.research_page.ENDERPUMP", "You're almost there thaumcraftian! One more step and you will have infinity lava! MWHAHAHA!!!!!");
+mods.thaumcraft.Research.addInfusionPage("ENDERPUMP", <ExtraUtilities:enderThermicPump>);
+mods.thaumcraft.Research.addPrereq("ENDERPUMP", "EXDRUM", false);
 
-
-
+#Ender Lava Tank Research
+mods.thaumcraft.Research.addResearch("ENDERTANK", "THAUMICSKIES", "machina 32, alienis 16, fabrico 16, ignis 16", 7, 6, 6, <EnderStorage:enderChest:4096>);
+game.setLocalization("en_US", "tc.research_name.ENDERTANK", "Maelstrom Infinite lava tank!");
+game.setLocalization("en_US", "tc.research_text.ENDERTANK", "Lava! INFINITE LAVA!");
+mods.thaumcraft.Research.addPage("ENDERTANK", "ts.research_page.ENDERTANK");
+game.setLocalization("en_US", "ts.research_page.ENDERTANK", "When it's that time in your life when you need to stop relying on crubiles for your lava. Infinite Lava is the way forwards! But beware, it won't come without a cost.");
+mods.thaumcraft.Research.addInfusionPage("ENDERTANK", <EnderStorage:enderChest:4096>);
+mods.thaumcraft.Research.addPrereq("ENDERTANK", "ENDERPUMP", false);
+mods.thaumcraft.Warp.addToResearch("ENDERTANK", 5);
 

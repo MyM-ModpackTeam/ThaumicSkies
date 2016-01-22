@@ -1,5 +1,6 @@
 #OpenPeripheral user-friendly names
 #class_name	user_name
+blusunrize.immersiveengineering.common.blocks.stone.TileEntityCokeOven	iecokeoven
 net.minecraft.block.BlockJukebox$TileEntityJukebox	record_player
 net.minecraft.tileentity.TileEntityBeacon	beacon
 net.minecraft.tileentity.TileEntityBrewingStand	brewing_stand
@@ -16,3 +17,7 @@ net.minecraft.tileentity.TileEntityHopper	hopper
 net.minecraft.tileentity.TileEntityNote	note_block
 net.minecraft.tileentity.TileEntitySign	sign
 net.minecraft.tileentity.TileEntitySkull	skull
+openblocks.common.tileentity.TileEntityBlockBreaker	blockbreaker
+openblocks.common.tileentity.TileEntityBlockPlacer	blockplacer
+theflogat.technomancy.common.tiles.thaumcraft.machine.TileAdvDeconTable	advdecontable
+vazkii.botania.common.block.tile.mana.TileSpreader	spreader
