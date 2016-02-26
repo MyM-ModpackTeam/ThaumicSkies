@@ -6,3 +6,4 @@
 * All Withers, Eldritch Guardians and Hellfish are infernal. Be prepared!
 * The Gadomancy Ethereal Familiar can be a very strong ally in fights. Making one early can be extremely beneficial, especially when fighting infernals.
 * This pack has Cooking for Blockheads. It provides a multi-block kitchen that can prepare nearly any food, including advanced Pam's HarvestCraft recipes, with the click of a button.
+* Use 6 cobblestone to create 12 slabs. Create a slabfurnace with the 8 slabs. Combine the rest slabs in 1x2 to create 2 cobblestone.
