@@ -1,0 +1,1050 @@
+{
+  "editMode": false,
+  "hardcore": false,
+  "questDatabase": [
+  {
+    "questID": 0,
+    "name": "thaumskies.startrevo.title",
+    "description": "thaumskies.startrevo.descr",
+    "isMain": true,
+    "isSlient": false,
+    "globalQuest": false,
+    "autoClaim": false,
+    "repeatTime": -1,
+    "logic": "AND",
+    "icon": {
+    "id": "minecraft:crafting_table",
+    "Count": 1,
+    "Damage": 0
+    },
+    "tasks": [
+    {
+      "completeUsers": [],
+      "partialMatch": true,
+      "ignoreNBT": false,
+      "requiredItems": [
+      {
+        "id": "minecraft:crafting_table",
+        "Count": 1,
+        "Damage": 0
+      }
+      ],
+      "userProgress": [],
+      "taskID": "bq_standard:crafting"
+    }
+    ],
+    "rewards": [],
+    "completed": [],
+    "preRequisites": []
+  },
+  {
+    "questID": 1,
+    "name": "thaumskies.becometink.title",
+    "description": "thaumskies.becometink.descr",
+    "isMain": false,
+    "isSlient": false,
+    "globalQuest": false,
+    "autoClaim": false,
+    "repeatTime": -1,
+    "logic": "AND",
+    "icon": {
+    "id": "TConstruct:blankPattern",
+    "Count": 1,
+    "Damage": 0
+    },
+    "tasks": [
+    {
+      "completeUsers": [],
+      "partialMatch": true,
+      "ignoreNBT": false,
+      "requiredItems": [
+      {
+        "id": "TConstruct:ToolStationBlock",
+        "Count": 1,
+        "Damage": 10
+      },
+      {
+        "id": "TConstruct:blankPattern",
+        "Count": 1,
+        "Damage": 0
+      }
+      ],
+      "userProgress": [],
+      "taskID": "bq_standard:crafting"
+    }
+    ],
+    "rewards": [],
+    "completed": [],
+    "preRequisites": [
+    0
+    ]
+  },
+  {
+    "questID": 2,
+    "name": "thaumskies.moretink.title",
+    "description": "thaumskies.moretink.descr",
+    "isMain": false,
+    "isSlient": false,
+    "globalQuest": false,
+    "autoClaim": false,
+    "repeatTime": -1,
+    "logic": "AND",
+    "icon": {
+    "id": "TConstruct:ToolStationBlock",
+    "Count": 1,
+    "Damage": 5
+    },
+    "tasks": [
+    {
+      "completeUsers": [],
+      "partialMatch": true,
+      "ignoreNBT": false,
+      "requiredItems": [
+      {
+        "id": "TConstruct:ToolStationBlock",
+        "Count": 1,
+        "Damage": 5
+      }
+      ],
+      "userProgress": [],
+      "taskID": "bq_standard:crafting"
+    }
+    ],
+    "rewards": [],
+    "completed": [],
+    "preRequisites": [
+    1
+    ]
+  },
+  {
+    "questID": 3,
+    "name": "thaumskies.toolparts.title",
+    "description": "thaumskies.toolparts.descr",
+    "isMain": false,
+    "isSlient": false,
+    "globalQuest": false,
+    "autoClaim": false,
+    "repeatTime": -1,
+    "logic": "AND",
+    "icon": {
+    "id": "TConstruct:ToolStationBlock",
+    "Count": 1,
+    "Damage": 1
+    },
+    "tasks": [
+    {
+      "completeUsers": [],
+      "partialMatch": true,
+      "ignoreNBT": true,
+      "requiredItems": [
+      {
+        "id": "TConstruct:ToolStationBlock",
+        "Count": 1,
+        "Damage": 1
+      }
+      ],
+      "userProgress": [],
+      "taskID": "bq_standard:crafting"
+    }
+    ],
+    "rewards": [],
+    "completed": [],
+    "preRequisites": [
+    2
+    ]
+  },
+  {
+    "questID": 4,
+    "name": "thaumskies.toolcomplete.title",
+    "description": "thaumskies.toolcomplete.descr",
+    "isMain": false,
+    "isSlient": false,
+    "globalQuest": false,
+    "autoClaim": false,
+    "repeatTime": -1,
+    "logic": "AND",
+    "icon": {
+    "id": "TConstruct:ToolStationBlock",
+    "Count": 1,
+    "Damage": 0
+    },
+    "tasks": [
+    {
+      "completeUsers": [],
+      "partialMatch": true,
+      "ignoreNBT": false,
+      "requiredItems": [
+      {
+        "id": "TConstruct:ToolStationBlock",
+        "Count": 1,
+        "Damage": 0
+      }
+      ],
+      "userProgress": [],
+      "taskID": "bq_standard:crafting"
+    }
+    ],
+    "rewards": [],
+    "completed": [],
+    "preRequisites": [
+    3
+    ]
+  },
+  {
+    "questID": 5,
+    "name": "thaumskies.sift.title",
+    "description": "thaumskies.sift.descr",
+    "isMain": false,
+    "isSlient": false,
+    "globalQuest": false,
+    "autoClaim": false,
+    "repeatTime": -1,
+    "logic": "AND",
+    "icon": {
+    "id": "exnihilo:sifting_table",
+    "Count": 1,
+    "Damage": 0
+    },
+    "tasks": [
+    {
+      "completeUsers": [],
+      "partialMatch": true,
+      "ignoreNBT": false,
+      "requiredItems": [
+      {
+        "id": "exnihilo:sifting_table",
+        "Count": 1,
+        "Damage": 0
+      }
+      ],
+      "userProgress": [],
+      "taskID": "bq_standard:crafting"
+    }
+    ],
+    "rewards": [],
+    "completed": [],
+    "preRequisites": [
+    6,
+    12
+    ]
+  },
+  {
+    "questID": 6,
+    "name": "thaumskies.string.title",
+    "description": "thaumskies.string.descr",
+    "isMain": false,
+    "isSlient": false,
+    "globalQuest": false,
+    "autoClaim": false,
+    "repeatTime": -1,
+    "logic": "AND",
+    "icon": {
+    "id": "minecraft:string",
+    "Count": 1,
+    "Damage": 0
+    },
+    "tasks": [
+    {
+      "completeUsers": [],
+      "partialMatch": true,
+      "ignoreNBT": false,
+      "requiredItems": [
+      {
+        "id": "exnihilo:mesh",
+        "Count": 1,
+        "Damage": 0
+      }
+      ],
+      "userProgress": [],
+      "taskID": "bq_standard:crafting"
+    }
+    ],
+    "rewards": [],
+    "completed": [],
+    "preRequisites": [
+    0
+    ]
+  },
+  {
+    "questID": 7,
+    "name": "thaumskies.getCobble.title",
+    "description": "thaumskies.getCobble.descr",
+    "isMain": false,
+    "isSlient": false,
+    "globalQuest": false,
+    "autoClaim": false,
+    "repeatTime": -1,
+    "logic": "AND",
+    "icon": {
+    "id": "minecraft:cobblestone",
+    "Count": 1,
+    "Damage": 0
+    },
+    "tasks": [
+    {
+      "completeUsers": [],
+      "partialMatch": true,
+      "ignoreNBT": false,
+      "requiredItems": [
+      {
+        "id": "minecraft:cobblestone",
+        "Count": 1,
+        "Damage": 0
+      }
+      ],
+      "userProgress": [],
+      "taskID": "bq_standard:crafting"
+    }
+    ],
+    "rewards": [],
+    "completed": [],
+    "preRequisites": [
+    5
+    ]
+  },
+  {
+    "questID": 8,
+    "name": "thaumskies.getIronNuggets.title",
+    "description": "thaumskies.getIronNuggets.descr",
+    "isMain": false,
+    "isSlient": false,
+    "globalQuest": false,
+    "autoClaim": false,
+    "repeatTime": -1,
+    "logic": "AND",
+    "icon": {
+    "id": "Thaumcraft:ItemNugget",
+    "Count": 1,
+    "Damage": 0
+    },
+    "tasks": [
+    {
+      "completeUsers": [],
+      "partialMatch": true,
+      "ignoreNBT": false,
+      "requiredItems": [
+      {
+        "id": "ExtraUtilities:cobblestone_compressed",
+        "Count": 1,
+        "Damage": 0
+      },
+      {
+        "id": "exnihilo:hammer_wood",
+        "Count": 1,
+        "Damage": 0
+      }
+      ],
+      "userProgress": [],
+      "taskID": "bq_standard:crafting"
+    },
+    {
+      "completeUsers": [],
+      "partialMatch": true,
+      "ignoreNBT": false,
+      "consume": false,
+      "requiredItems": [
+      {
+        "id": "Thaumcraft:ItemNugget",
+        "Count": 1,
+        "Damage": 0
+      }
+      ],
+      "userProgress": [],
+      "taskID": "bq_standard:retrieval"
+    }
+    ],
+    "rewards": [],
+    "completed": [],
+    "preRequisites": [
+    7
+    ]
+  },
+  {
+    "questID": 9,
+    "name": "thaumskies.getLava.title",
+    "description": "thaumskies.getLava.descr",
+    "isMain": false,
+    "isSlient": false,
+    "globalQuest": true,
+    "autoClaim": false,
+    "repeatTime": -1,
+    "logic": "AND",
+    "icon": {
+    "id": "IguanaTweaksTConstruct:clayBucketLava",
+    "Count": 1,
+    "Damage": 0
+    },
+    "tasks": [
+    {
+      "completeUsers": [],
+      "partialMatch": true,
+      "ignoreNBT": false,
+      "consume": false,
+      "requiredItems": [
+      {
+        "id": "minecraft:clay_ball",
+        "Count": 1,
+        "Damage": 0
+      },
+      {
+        "id": "minecraft:clay",
+        "Count": 1,
+        "Damage": 0
+      }
+      ],
+      "userProgress": [],
+      "taskID": "bq_standard:retrieval"
+    },
+    {
+      "completeUsers": [],
+      "partialMatch": true,
+      "ignoreNBT": false,
+      "requiredItems": [
+      {
+        "id": "exnihilo:porcelain",
+        "Count": 1,
+        "Damage": 0
+      },
+      {
+        "id": "exnihilo:crucible_unfired",
+        "Count": 1,
+        "Damage": 0
+      },
+      {
+        "id": "IguanaTweaksTConstruct:clayBucketUnfired",
+        "Count": 1,
+        "Damage": 0
+      }
+      ],
+      "userProgress": [],
+      "taskID": "bq_standard:crafting"
+    },
+    {
+      "completeUsers": [],
+      "partialMatch": true,
+      "ignoreNBT": false,
+      "consume": false,
+      "requiredItems": [
+      {
+        "id": "exnihilo:crucible",
+        "Count": 1,
+        "Damage": 0
+      },
+      {
+        "id": "IguanaTweaksTConstruct:clayBucketFired",
+        "Count": 1,
+        "Damage": 0
+      }
+      ],
+      "userProgress": [],
+      "taskID": "bq_standard:retrieval"
+    }
+    ],
+    "rewards": [],
+    "completed": [],
+    "preRequisites": [
+    7
+    ]
+  },
+  {
+    "questID": 10,
+    "name": "thaumskies.ThaumIntro.title",
+    "description": "thaumskies.ThaumIntro.descr",
+    "isMain": false,
+    "isSlient": false,
+    "globalQuest": true,
+    "autoClaim": false,
+    "repeatTime": -1,
+    "logic": "AND",
+    "icon": {
+    "id": "Thaumcraft:ItemResearchNotes",
+    "Count": 1,
+    "Damage": 0,
+    "tag": {
+      "copies": 0,
+      "color": 11908557,
+      "complete": 0,
+      "hexgrid": [
+      {
+        "hexq": 0,
+        "hexr": 0,
+        "type": 0
+      },
+      {
+        "hexq": 0,
+        "hexr": 1,
+        "type": 0
+      },
+      {
+        "hexq": 1,
+        "hexr": 0,
+        "type": 0
+      },
+      {
+        "hexq": -2,
+        "hexr": 2,
+        "aspect": "metallum",
+        "type": 1
+      },
+      {
+        "hexq": 0,
+        "hexr": 2,
+        "type": 0
+      },
+      {
+        "hexq": 1,
+        "hexr": 1,
+        "type": 0
+      },
+      {
+        "hexq": 2,
+        "hexr": 0,
+        "type": 0
+      },
+      {
+        "hexq": -1,
+        "hexr": 2,
+        "type": 0
+      },
+      {
+        "hexq": -2,
+        "hexr": 1,
+        "type": 0
+      },
+      {
+        "hexq": -1,
+        "hexr": -1,
+        "type": 0
+      },
+      {
+        "hexq": -1,
+        "hexr": 1,
+        "type": 0
+      },
+      {
+        "hexq": -2,
+        "hexr": 0,
+        "type": 0
+      },
+      {
+        "hexq": -1,
+        "hexr": 0,
+        "type": 0
+      },
+      {
+        "hexq": 0,
+        "hexr": -1,
+        "type": 0
+      },
+      {
+        "hexq": 1,
+        "hexr": -2,
+        "type": 0
+      },
+      {
+        "hexq": 0,
+        "hexr": -2,
+        "type": 0
+      },
+      {
+        "hexq": 1,
+        "hexr": -1,
+        "type": 0
+      },
+      {
+        "hexq": 2,
+        "hexr": -2,
+        "aspect": "ordo",
+        "type": 1
+      },
+      {
+        "hexq": 2,
+        "hexr": -1,
+        "type": 0
+      }
+      ],
+      "key": "OREBASIC"
+    }
+    },
+    "tasks": [
+    {
+      "completeUsers": [],
+      "partialMatch": true,
+      "ignoreNBT": false,
+      "consume": false,
+      "requiredItems": [
+      {
+        "id": "minecraft:glass",
+        "Count": 1,
+        "Damage": 0
+      },
+      {
+        "id": "minecraft:feather",
+        "Count": 1,
+        "Damage": 0
+      },
+      {
+        "id": "minecraft:dye",
+        "Count": 1,
+        "Damage": 0
+      }
+      ],
+      "userProgress": [],
+      "taskID": "bq_standard:retrieval"
+    },
+    {
+      "completeUsers": [],
+      "partialMatch": true,
+      "ignoreNBT": false,
+      "requiredItems": [
+      {
+        "id": "Thaumcraft:ItemInkwell",
+        "Count": 1,
+        "Damage": 0
+      },
+      {
+        "id": "Thaumcraft:blockTable",
+        "Count": 2,
+        "Damage": 0
+      }
+      ],
+      "userProgress": [],
+      "taskID": "bq_standard:crafting"
+    }
+    ],
+    "rewards": [
+    {
+      "rewards": [
+      {
+        "id": "Thaumcraft:ItemResearchNotes",
+        "Count": 1,
+        "Damage": 0,
+        "tag": {
+        "copies": 0,
+        "color": 11908557,
+        "complete": 0,
+        "hexgrid": [
+          {
+          "hexq": 0,
+          "hexr": 0,
+          "type": 0
+          },
+          {
+          "hexq": 0,
+          "hexr": 1,
+          "type": 0
+          },
+          {
+          "hexq": 1,
+          "hexr": 0,
+          "type": 0
+          },
+          {
+          "hexq": -2,
+          "hexr": 2,
+          "aspect": "metallum",
+          "type": 1
+          },
+          {
+          "hexq": 0,
+          "hexr": 2,
+          "type": 0
+          },
+          {
+          "hexq": 1,
+          "hexr": 1,
+          "type": 0
+          },
+          {
+          "hexq": 2,
+          "hexr": 0,
+          "type": 0
+          },
+          {
+          "hexq": -1,
+          "hexr": 2,
+          "type": 0
+          },
+          {
+          "hexq": -2,
+          "hexr": 1,
+          "type": 0
+          },
+          {
+          "hexq": -1,
+          "hexr": -1,
+          "type": 0
+          },
+          {
+          "hexq": -1,
+          "hexr": 1,
+          "type": 0
+          },
+          {
+          "hexq": -2,
+          "hexr": 0,
+          "type": 0
+          },
+          {
+          "hexq": -1,
+          "hexr": 0,
+          "type": 0
+          },
+          {
+          "hexq": 0,
+          "hexr": -1,
+          "type": 0
+          },
+          {
+          "hexq": 1,
+          "hexr": -2,
+          "type": 0
+          },
+          {
+          "hexq": 0,
+          "hexr": -2,
+          "type": 0
+          },
+          {
+          "hexq": 1,
+          "hexr": -1,
+          "type": 0
+          },
+          {
+          "hexq": 2,
+          "hexr": -2,
+          "aspect": "ordo",
+          "type": 1
+          },
+          {
+          "hexq": 2,
+          "hexr": -1,
+          "type": 0
+          }
+        ],
+        "key": "OREBASIC"
+        }
+      }
+      ],
+      "rewardID": "bq_standard:item"
+    }
+    ],
+    "completed": [],
+    "preRequisites": [
+    6
+    ]
+  },
+  {
+    "questID": 11,
+    "name": "thaumskies.IntroIronDupe.title",
+    "description": "thaumskies.IntroIronDupe.descr",
+    "isMain": false,
+    "isSlient": false,
+    "globalQuest": false,
+    "autoClaim": false,
+    "repeatTime": -1,
+    "logic": "AND",
+    "icon": {
+    "id": "minecraft:iron_ore",
+    "Count": 1,
+    "Damage": 0
+    },
+    "tasks": [
+    {
+      "completeUsers": [],
+      "partialMatch": true,
+      "ignoreNBT": false,
+      "requiredItems": [
+      {
+        "id": "minecraft:cauldron",
+        "Count": 1,
+        "Damage": 0
+      },
+      {
+        "id": "Thaumcraft:WandCap",
+        "Count": 2,
+        "Damage": 0
+      },
+      {
+        "id": "Thaumcraft:WandCasting",
+        "Count": 1,
+        "Damage": 0,
+        "tag": {
+        "cap": "iron",
+        "rod": "wood"
+        }
+      }
+      ],
+      "userProgress": [],
+      "taskID": "bq_standard:crafting"
+    }
+    ],
+    "rewards": [],
+    "completed": [],
+    "preRequisites": [
+    8,
+    10
+    ]
+  },
+  {
+    "questID": 12,
+    "name": "thaumskies.dirt.title",
+    "description": "thaumskies.dirt.descr",
+    "isMain": false,
+    "isSlient": false,
+    "globalQuest": false,
+    "autoClaim": false,
+    "repeatTime": -1,
+    "logic": "AND",
+    "icon": {
+    "id": "minecraft:dirt",
+    "Count": 1,
+    "Damage": 0
+    },
+    "tasks": [
+    {
+      "completeUsers": [],
+      "partialMatch": true,
+      "ignoreNBT": false,
+      "requiredItems": [
+      {
+        "id": "exnihilo:barrel",
+        "Count": 1,
+        "Damage": 0
+      }
+      ],
+      "userProgress": [],
+      "taskID": "bq_standard:crafting"
+    }
+    ],
+    "rewards": [],
+    "completed": [],
+    "preRequisites": [
+    0
+    ]
+  },
+  {
+    "questID": 13,
+    "name": "thaumskies.ThaumBookIntro.title",
+    "description": "thaumskies.ThaumBookIntro.descr",
+    "isMain": false,
+    "isSlient": false,
+    "globalQuest": false,
+    "autoClaim": false,
+    "repeatTime": -1,
+    "logic": "AND",
+    "icon": {
+    "id": "Thaumcraft:ItemThaumonomicon",
+    "Count": 1,
+    "Damage": 0
+    },
+    "tasks": [
+    {
+      "completeUsers": [],
+      "partialMatch": true,
+      "ignoreNBT": false,
+      "consume": false,
+      "requiredItems": [
+      {
+        "id": "Thaumcraft:ItemThaumonomicon",
+        "Count": 1,
+        "Damage": 0
+      }
+      ],
+      "userProgress": [],
+      "taskID": "bq_standard:retrieval"
+    }
+    ],
+    "rewards": [],
+    "completed": [],
+    "preRequisites": [
+    10
+    ]
+  },
+  {
+    "questID": 14,
+    "name": "thaumskies.ThaumRoseIntro.title",
+    "description": "thaumskies.ThaumRoseIntro.descr",
+    "isMain": false,
+    "isSlient": false,
+    "globalQuest": false,
+    "autoClaim": false,
+    "repeatTime": -1,
+    "logic": "AND",
+    "icon": {
+    "id": "thaumicbases:knoseFragment",
+    "Count": 1,
+    "Damage": 6
+    },
+    "tasks": [
+    {
+      "completeUsers": [],
+      "partialMatch": true,
+      "ignoreNBT": false,
+      "consume": false,
+      "requiredItems": [
+      {
+        "id": "thaumicbases:knoseFragment",
+        "Count": 1,
+        "Damage": 6
+      }
+      ],
+      "userProgress": [],
+      "taskID": "bq_standard:retrieval"
+    }
+    ],
+    "rewards": [],
+    "completed": [],
+    "preRequisites": []
+  },
+  {
+    "questID": 15,
+    "name": "thaumskies.ThaumKillMobs.title",
+    "description": "thaumskies.ThaumKillMobs.descr",
+    "isMain": false,
+    "isSlient": false,
+    "globalQuest": false,
+    "autoClaim": false,
+    "repeatTime": -1,
+    "logic": "AND",
+    "icon": {
+    "id": "minecraft:nether_star",
+    "Count": 1,
+    "Damage": 0
+    },
+    "tasks": [
+    {
+      "completeUsers": [],
+      "target": "Zombie",
+      "required": 10,
+      "userProgress": [],
+      "taskID": "bq_standard:hunt"
+    },
+    {
+      "completeUsers": [],
+      "target": "Creeper",
+      "required": 10,
+      "userProgress": [],
+      "taskID": "bq_standard:hunt"
+    },
+    {
+      "completeUsers": [],
+      "target": "Skeleton",
+      "required": 10,
+      "userProgress": [],
+      "taskID": "bq_standard:hunt"
+    },
+    {
+      "completeUsers": [],
+      "target": "Spider",
+      "required": 10,
+      "userProgress": [],
+      "taskID": "bq_standard:hunt"
+    }
+    ],
+    "rewards": [],
+    "completed": [
+    {
+      "uuid": "07c43ca8-8a08-4108-9c00-06ba474f727a",
+      "timestamp": 105294,
+      "claimed": false
+    }
+    ],
+    "preRequisites": []
+  }
+  ],
+  "questLines": [
+  {
+    "name": "thaumskies.qsets.skyLearn.title",
+    "description": "thaumskies.qsets.skyLearn.descr",
+    "quests": [
+    {
+      "id": 0,
+      "x": 32,
+      "y": 0
+    },
+    {
+      "id": 1,
+      "x": 0,
+      "y": 50
+    },
+    {
+      "id": 2,
+      "x": 16,
+      "y": 100
+    },
+    {
+      "id": 3,
+      "x": 16,
+      "y": 150
+    },
+    {
+      "id": 4,
+      "x": 0,
+      "y": 200
+    },
+    {
+      "id": 5,
+      "x": 48,
+      "y": 100
+    },
+    {
+      "id": 6,
+      "x": 32,
+      "y": 50
+    },
+    {
+      "id": 7,
+      "x": 48,
+      "y": 150
+    },
+    {
+      "id": 8,
+      "x": 32,
+      "y": 200
+    },
+    {
+      "id": 9,
+      "x": 64,
+      "y": 200
+    },
+    {
+      "id": 12,
+      "x": 64,
+      "y": 50
+    }
+    ]
+  },
+  {
+    "name": "thaumskies.qsets.thaum.title",
+    "description": "thaumskies.qsets.thaum.descr",
+    "quests": [
+    {
+      "id": 10,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "id": 11,
+      "x": 16,
+      "y": 50
+    },
+    {
+      "id": 13,
+      "x": 48,
+      "y": 50
+    },
+    {
+      "id": 14,
+      "x": 32,
+      "y": 0
+    },
+    {
+      "id": 15,
+      "x": 64,
+      "y": 0
+    }
+    ]
+  }
+  ]
+}
