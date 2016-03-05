@@ -104,7 +104,7 @@ mods.thaumcraft.Research.setAutoUnlock("TSINTRO", true);
 
 
 #Eldritch Portal
-mods.thaumcraft.Research.addResearch("TSPORTALELDRITCH", "THAUMICSKIES", "alienis 10, iter 20, vacuos 5", 1, 8, 0, <gadomancy:BlockAdditionalEldritchPortal>);
+mods.thaumcraft.Research.addResearch("TSPORTALELDRITCH", "THAUMICSKIES", "alienis 10, iter 20, vacuos 5, terminus 10, permutatio 3, praecantatio 1", 1, 8, 10, <gadomancy:BlockAdditionalEldritchPortal>);
 game.setLocalization("en_US", "tc.research_name.TSPORTALELDRITCH", "Making the portal");
 game.setLocalization("en_US", "tc.research_text.TSPORTALELDRITCH", "[TS] Creatio ex nihilo");
 mods.thaumcraft.Research.addPage("TSPORTALELDRITCH", "tc.research_page.TSPORTALELDRITCH1");
@@ -114,7 +114,7 @@ game.setLocalization("en_US", "tc.research_page.TSPORTALELDRITCH1", "Creatio ex 
 
 
 #Eldritch Portal Intro
-mods.thaumcraft.Research.addResearch("TSPORTALINTRO", "THAUMICSKIES", "cognitio 10, invidia 20, sensus 5", 0, 6, 0, <ThermalExpansion:meter:1>);
+mods.thaumcraft.Research.addResearch("TSPORTALINTRO", "THAUMICSKIES", "cognitio 10, invidia 20, sensus 5, terminus 15", 0, 6, 3, <ThermalExpansion:meter:1>);
 game.setLocalization("en_US", "tc.research_name.TSPORTALINTRO", "Eldritch History");
 game.setLocalization("en_US", "tc.research_text.TSPORTALINTRO", "[TS] Philosophing about the other world?");
 mods.thaumcraft.Research.addPage("TSPORTALINTRO", "tc.research_page.TSPORTALINTRO1");
