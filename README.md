@@ -2,11 +2,11 @@
 Welcome to **Thaumic Skies**! This modpack is a skyblock centered around the Thaumcraft Crucible and offers an expansive collection of mods that make for exciting and lasting Minecraft experience. 
 
 # Additional Information
-* [Beginner's Guide](https://github.com/MyM-ModpackTeam/ThaumicSkies/blob/master/guide/Beginner's%20Guide.md)
-* [Thaumcraft Help & Links](https://github.com/MyM-ModpackTeam/ThaumicSkies/blob/master/guide/Thaumcraft%20Help%20%26%20Links.md)
-* [Features & Changes](https://github.com/MyM-ModpackTeam/ThaumicSkies/blob/master/guide/Features%20%26%20Changes.md)
-* [Tips & Tricks](https://github.com/MyM-ModpackTeam/ThaumicSkies/blob/master/guide/Tips%20%26%20Tricks.md)
-* [Bugs, Suggestions & Feedback](https://github.com/MyM-ModpackTeam/ThaumicSkies/issues)
+* [Beginner's Guide](https://github.com/MyM-ModpackTeam/ThaumicSkies/wiki/Beginner's-Guide)
+* [Features & Changes](https://github.com/MyM-ModpackTeam/ThaumicSkies/wiki/Features-&-Changes)
+* [Mods & Licensing](https://github.com/MyM-ModpackTeam/ThaumicSkies/wiki/Modlist)
+* [Thaumcraft Help & Links](https://github.com/MyM-ModpackTeam/ThaumicSkies/wiki/Thaumcraft-Help-&-Links)
+* [Tips & Tricks](https://github.com/MyM-ModpackTeam/ThaumicSkies/wiki/Tips-&-Tricks)
 
 # Mods & Permissions
 **Core Mods:**
