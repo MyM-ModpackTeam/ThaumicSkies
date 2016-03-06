@@ -39,13 +39,16 @@ mods.thaumcraft.Arcane.addShaped("ASPECTS", <Thaumcraft:FocusPech>, "perditio 50
 mods.thaumcraft.Crucible.addRecipe("ASPECTS", <Thaumcraft:blockTaint:1>, <minecraft:dirt>, "praecantatio 8, perditio 8");
 mods.thaumcraft.Crucible.addRecipe("ASPECTS", <Thaumcraft:blockTaint>, <minecraft:gravel>, "praecantatio 8, perditio 8");
 
-mods.thaumcraft.Arcane.addShaped("GADOMANCY.E_PORTAL_CREATOR", <Thaumcraft:ItemSpawnerEgg:7>, "aer 150, ignis 150, aqua 150, terra 150, ordo 150, perditio 150", [[<gadomancy:BlockAdditionalEldritchPortal>, null, null], [null, null, null], [null, null, null]]);
+#Boss spawn eggs
+mods.thaumcraft.Arcane.addShaped("TSPORTALELDRITCH", <Thaumcraft:ItemSpawnerEgg:7>, "aer 150, ignis 150, aqua 150, terra 150, ordo 150, perditio 150", [[<gadomancy:BlockAdditionalEldritchPortal>, null, null], [null, null, null], [null, null, null]]);
+mods.thaumcraft.Arcane.addShaped("TSPORTALELDRITCH", <Thaumcraft:ItemSpawnerEgg:10>, "aer 150, ignis 150, aqua 150, terra 150, ordo 150, perditio 150", [[null, <gadomancy:BlockAdditionalEldritchPortal>, null], [null, null, null], [null, null, null]]);
+mods.thaumcraft.Arcane.addShaped("TSPORTALELDRITCH", <Thaumcraft:ItemSpawnerEgg:11>, "aer 150, ignis 150, aqua 150, terra 150, ordo 150, perditio 150", [[null, null, <gadomancy:BlockAdditionalEldritchPortal>], [null, null, null], [null, null, null]]);
+mods.thaumcraft.Arcane.addShaped("TSPORTALELDRITCH", <Thaumcraft:ItemSpawnerEgg:12>, "aer 150, ignis 150, aqua 150, terra 150, ordo 150, perditio 150", [[null, null, null], [<gadomancy:BlockAdditionalEldritchPortal>, null, null], [null, null, null]]);
+recipes.addShapeless(<gadomancy:BlockAdditionalEldritchPortal>, [<Thaumcraft:blockPortalEldritch>]);
+recipes.addShapeless(<Thaumcraft:blockPortalEldritch>, [<gadomancy:BlockAdditionalEldritchPortal>]);
 
-mods.thaumcraft.Arcane.addShaped("GADOMANCY.E_PORTAL_CREATOR", <Thaumcraft:ItemSpawnerEgg:10>, "aer 150, ignis 150, aqua 150, terra 150, ordo 150, perditio 150", [[null, <gadomancy:BlockAdditionalEldritchPortal>, null], [null, null, null], [null, null, null]]);
 
-mods.thaumcraft.Arcane.addShaped("GADOMANCY.E_PORTAL_CREATOR", <Thaumcraft:ItemSpawnerEgg:11>, "aer 150, ignis 150, aqua 150, terra 150, ordo 150, perditio 150", [[null, null, <gadomancy:BlockAdditionalEldritchPortal>], [null, null, null], [null, null, null]]);
 
-mods.thaumcraft.Arcane.addShaped("GADOMANCY.E_PORTAL_CREATOR", <Thaumcraft:ItemSpawnerEgg:12>, "aer 150, ignis 150, aqua 150, terra 150, ordo 150, perditio 150", [[null, null, null], [<gadomancy:BlockAdditionalEldritchPortal>, null, null], [null, null, null]]);
 
 #Evilcraft
 recipes.addShaped(<evilcraft:environmentalAccumulationCore>, [[<evilcraft:darkPowerGem>, <evilcraft:darkPowerGem>, <evilcraft:darkPowerGem>],[<evilcraft:darkPowerGem>, <TaintedMagic:FocusWeather>, <evilcraft:darkPowerGem>],[<evilcraft:darkPowerGem>, <evilcraft:darkPowerGem>, <evilcraft:darkPowerGem>]]);
@@ -55,6 +58,7 @@ recipes.addShapeless(<TConstruct:slime.sapling>, [<ore:treeSapling>, <ore:slimeb
 
 #Chisel
 recipes.addShaped(<chisel:cloud>, [[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>],[<minecraft:glass>, <minecraft:feather>, <minecraft:glass>],[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>]]);
+
 
 
 
