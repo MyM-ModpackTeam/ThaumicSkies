@@ -39,13 +39,19 @@ mods.thaumcraft.Arcane.addShaped("ASPECTS", <Thaumcraft:FocusPech>, "perditio 50
 mods.thaumcraft.Crucible.addRecipe("ASPECTS", <Thaumcraft:blockTaint:1>, <minecraft:dirt>, "praecantatio 8, perditio 8");
 mods.thaumcraft.Crucible.addRecipe("ASPECTS", <Thaumcraft:blockTaint>, <minecraft:gravel>, "praecantatio 8, perditio 8");
 
-mods.thaumcraft.Arcane.addShaped("GADOMANCY.E_PORTAL_CREATOR", <Thaumcraft:ItemSpawnerEgg:7>, "aer 150, ignis 150, aqua 150, terra 150, ordo 150, perditio 150", [[<gadomancy:BlockAdditionalEldritchPortal>, null, null], [null, null, null], [null, null, null]]);
+#OuterlandsPortal
+mods.thaumcraft.Infusion.addRecipe("TSPORTALELDRITCH", <appliedenergistics2:item.ItemMultiMaterial:47>, [<Thaumcraft:ItemEldritchObject:1>, <gadomancy:BlockStoneMachine:3>, <AWWayofTime:demonicTelepositionFocus>, <Thaumcraft:ItemEldritchObject>, <technom:teslaCoil>, <Botania:manaResource:14>, <Thaumcraft:ItemEldritchObject:1>, <thaumicbases:nodeManipulator>, <DraconicEvolution:awakenedCore>, <Thaumcraft:ItemEldritchObject>, <technom:itemTransmitter>, <ThaumicTinkerer:focusRecall>, <Thaumcraft:ItemEldritchObject:1>, <gadomancy:BlockNodeManipulator:5>, <AWWayofTime:demonicTelepositionFocus>, <Thaumcraft:ItemEldritchObject>, <technom:teslaCoil>, <Botania:manaResource:14>, <Thaumcraft:ItemEldritchObject:1>, <thaumicbases:nodeLinker>, <DraconicEvolution:awakenedCore>, <Thaumcraft:ItemEldritchObject>, <technom:itemTransmitter>, <ThaumicTinkerer:focusRecall>], "alienis 200, iter 50, terminus 50, aer 100, aqua 50, ignis 50, terra 50, ordo 50, perditio 50, tempus 10, telum 10, vacuos 35, permutatio 75, cognitio 40", <Thaumcraft:blockPortalEldritch>, 30);
 
-mods.thaumcraft.Arcane.addShaped("GADOMANCY.E_PORTAL_CREATOR", <Thaumcraft:ItemSpawnerEgg:10>, "aer 150, ignis 150, aqua 150, terra 150, ordo 150, perditio 150", [[null, <gadomancy:BlockAdditionalEldritchPortal>, null], [null, null, null], [null, null, null]]);
+#Boss spawn eggs
+mods.thaumcraft.Arcane.addShaped("TSPORTALELDRITCH", <Thaumcraft:ItemSpawnerEgg:7>, "aer 150, ignis 150, aqua 150, terra 150, ordo 150, perditio 150", [[<gadomancy:BlockAdditionalEldritchPortal>, null, null], [null, null, null], [null, null, null]]);
+mods.thaumcraft.Arcane.addShaped("TSPORTALELDRITCH", <Thaumcraft:ItemSpawnerEgg:10>, "aer 150, ignis 150, aqua 150, terra 150, ordo 150, perditio 150", [[null, <gadomancy:BlockAdditionalEldritchPortal>, null], [null, null, null], [null, null, null]]);
+mods.thaumcraft.Arcane.addShaped("TSPORTALELDRITCH", <Thaumcraft:ItemSpawnerEgg:11>, "aer 150, ignis 150, aqua 150, terra 150, ordo 150, perditio 150", [[null, null, <gadomancy:BlockAdditionalEldritchPortal>], [null, null, null], [null, null, null]]);
+mods.thaumcraft.Arcane.addShaped("TSPORTALELDRITCH", <Thaumcraft:ItemSpawnerEgg:12>, "aer 150, ignis 150, aqua 150, terra 150, ordo 150, perditio 150", [[null, null, null], [<gadomancy:BlockAdditionalEldritchPortal>, null, null], [null, null, null]]);
+recipes.addShapeless(<gadomancy:BlockAdditionalEldritchPortal>, [<Thaumcraft:blockPortalEldritch>]);
+recipes.addShapeless(<Thaumcraft:blockPortalEldritch>, [<gadomancy:BlockAdditionalEldritchPortal>]);
 
-mods.thaumcraft.Arcane.addShaped("GADOMANCY.E_PORTAL_CREATOR", <Thaumcraft:ItemSpawnerEgg:11>, "aer 150, ignis 150, aqua 150, terra 150, ordo 150, perditio 150", [[null, null, <gadomancy:BlockAdditionalEldritchPortal>], [null, null, null], [null, null, null]]);
 
-mods.thaumcraft.Arcane.addShaped("GADOMANCY.E_PORTAL_CREATOR", <Thaumcraft:ItemSpawnerEgg:12>, "aer 150, ignis 150, aqua 150, terra 150, ordo 150, perditio 150", [[null, null, null], [<gadomancy:BlockAdditionalEldritchPortal>, null, null], [null, null, null]]);
+
 
 #Evilcraft
 recipes.addShaped(<evilcraft:environmentalAccumulationCore>, [[<evilcraft:darkPowerGem>, <evilcraft:darkPowerGem>, <evilcraft:darkPowerGem>],[<evilcraft:darkPowerGem>, <TaintedMagic:FocusWeather>, <evilcraft:darkPowerGem>],[<evilcraft:darkPowerGem>, <evilcraft:darkPowerGem>, <evilcraft:darkPowerGem>]]);
@@ -55,6 +61,7 @@ recipes.addShapeless(<TConstruct:slime.sapling>, [<ore:treeSapling>, <ore:slimeb
 
 #Chisel
 recipes.addShaped(<chisel:cloud>, [[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>],[<minecraft:glass>, <minecraft:feather>, <minecraft:glass>],[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>]]);
+
 
 
 
