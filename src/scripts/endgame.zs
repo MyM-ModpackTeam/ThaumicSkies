@@ -44,18 +44,8 @@ mods.avaritia.ExtremeCrafting.addShaped(<ThermalExpansion:Cell>, [
 [<DraconicEvolution:draconicBlock>, <BigReactors:BRTurbinePart>, <BigReactors:BRTurbinePart>, <BigReactors:BRTurbinePart>, <BigReactors:BRTurbinePart:4>, <BigReactors:BRTurbinePart>, <BigReactors:BRTurbinePart>, <BigReactors:BRTurbinePart>, <DraconicEvolution:draconicBlock>],
 [<DraconicEvolution:draconicBlock>, <DraconicEvolution:draconicBlock>, <DraconicEvolution:draconicBlock>, <EMT:EMTSolars2:4>, <EMT:EMTSolars:11>, <EMT:EMTSolars:8>, <DraconicEvolution:draconicBlock>, <DraconicEvolution:draconicBlock>, <DraconicEvolution:draconicBlock>]]);
 
-#Eldritch Portal
-mods.avaritia.ExtremeCrafting.addShaped(<gadomancy:BlockAdditionalEldritchPortal>, [
-[null, null, null, null, null, null, null, null, null],
-[null, null, null, null, <gadomancy:BlockStoneMachine:1>, null, null, null, null],
-[null, null, <Thaumcraft:blockCosmeticSolid:11>, null, <Thaumcraft:ItemEldritchObject>, null, <Thaumcraft:blockCosmeticSolid:11>, null, null],
-[null, null, null, <Thaumcraft:blockCosmeticSolid:15>, <gadomancy:BlockStoneMachine:3>, <Thaumcraft:blockCosmeticSolid:15>, null, null, null],
-[null, <gadomancy:BlockStoneMachine:1>, <Thaumcraft:ItemEldritchObject>, null, <gadomancy:BlockNodeManipulator:5>, null, <Thaumcraft:ItemEldritchObject>, <gadomancy:BlockStoneMachine:1>, null],
-[null, null, null, <Thaumcraft:blockCosmeticSolid:15>, null, <Thaumcraft:blockCosmeticSolid:15>, null, null, null],
-[null, null, <Thaumcraft:blockCosmeticSolid:11>, null, <Thaumcraft:ItemEldritchObject>, null, <Thaumcraft:blockCosmeticSolid:11>, null, null],
-[null, null, null, null, <gadomancy:BlockStoneMachine:1>, null, null, null, null],
-[null, null, null, null, null, null, null, null, null],
-]);
+
+
 
 
 

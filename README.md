@@ -5,7 +5,7 @@ Welcome to **Thaumic Skies**! This modpack is a skyblock centered around the Tha
 * [Beginner's Guide](https://github.com/MyM-ModpackTeam/ThaumicSkies/blob/master/guide/Beginner's%20Guide.md)
 * [Thaumcraft Help & Links](https://github.com/MyM-ModpackTeam/ThaumicSkies/blob/master/guide/Thaumcraft%20Help%20%26%20Links.md)
 * [Features & Changes](https://github.com/MyM-ModpackTeam/ThaumicSkies/blob/master/guide/Features%20%26%20Changes.md)
-* [Tips & Tricks](https://github.com/MyM-ModpackTeam/ThaumicSkies/blob/master/guide/Tips%20%26%20Tricks.md)
+* [Tips & Tricks](https://github.com/MyM-ModpackTeam/ThaumicSkies/blob/master/src/guide/Tips%20%26%20Tricks.md)
 * [Bugs, Suggestions & Feedback](https://github.com/MyM-ModpackTeam/ThaumicSkies/issues)
 
 # Mods & Permissions

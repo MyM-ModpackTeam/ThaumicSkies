@@ -101,6 +101,37 @@ game.setLocalization("en_US", "ts.research_page.TSINTRO1", "Thanks for playing T
 mods.thaumcraft.Research.setRound("TSINTRO", true);
 mods.thaumcraft.Research.setAutoUnlock("TSINTRO", true);
 
+
+
+#Eldritch Portal
+mods.thaumcraft.Research.addResearch("TSPORTALELDRITCH", "THAUMICSKIES", "alienis 10, iter 20, vacuos 5, terminus 10, permutatio 3, praecantatio 1", 1, 8, 10, <gadomancy:BlockAdditionalEldritchPortal>);
+game.setLocalization("en_US", "tc.research_name.TSPORTALELDRITCH", "Making the portal");
+game.setLocalization("en_US", "tc.research_text.TSPORTALELDRITCH", "[TS] Creatio ex nihilo");
+mods.thaumcraft.Research.addPage("TSPORTALELDRITCH", "tc.research_page.TSPORTALELDRITCH1");
+mods.thaumcraft.Research.addInfusionPage("TSPORTALELDRITCH", <Thaumcraft:blockPortalEldritch>);
+game.setLocalization("en_US", "tc.research_page.TSPORTALELDRITCH1", "Creatio ex Nihilo - Creation from nothingness <LINE>This is exactly what you succeded in doing: You created a portal to the eldritch dimension from nothing! Unfortunately, your portal still doesn't work properly: While it takes you to the elder's dimension, you will most likely be in mid-air above a huge empty space! The portal works best in the nether as well, as the infernal powers fuel the portal better than the ones on your floating island. You wonder whether more research, or a trip there might pay off? You haven't found out why the portal is invisible when not placed?");
+
+
+
+#Eldritch Portal Intro
+mods.thaumcraft.Research.addResearch("TSPORTALINTRO", "THAUMICSKIES", "cognitio 10, invidia 20, sensus 5, terminus 15", 0, 6, 3, <ThermalExpansion:meter:1>);
+game.setLocalization("en_US", "tc.research_name.TSPORTALINTRO", "Eldritch History");
+game.setLocalization("en_US", "tc.research_text.TSPORTALINTRO", "[TS] Philosophing about the other world?");
+mods.thaumcraft.Research.addPage("TSPORTALINTRO", "tc.research_page.TSPORTALINTRO1");
+mods.thaumcraft.Research.addPage("TSPORTALINTRO", "tc.research_page.TSPORTALINTRO2");
+game.setLocalization("en_US", "tc.research_page.TSPORTALINTRO1", "After hours of researching you and your insanity had an idea: After hearing of a distant place where the eldritch guardians and supposedly also other species come from, you tried to create a portal there. Unfortunately, none of your trials succeded... You think there is something out there preventing your thoughts from becoming clearer, maybe more research in other sections of Thaumaturgy might help? You believe it will take a lot to open that rift by force.");
+game.setLocalization("en_US", "tc.research_page.TSPORTALINTRO2", "<LINE>There are so many questions you ask yourself: Why do beings from an other World take the effort of coming to your world, only to try to stop you? To come here they used the same powers as you do, so essentially you are comrads! And why do they only bring chaos and destruction to the world, instead of creation? The greatest question you stand upon is, what has happened to their world, that they try to prevent others from becoming like them? You wonder if you could talk to a guardian one time?");
+
+#Eldritch Portal + Intro prereqs
+mods.thaumcraft.Research.addPrereq("TSPORTALINTRO", "ELDRITCHMAJOR", false);
+mods.thaumcraft.Research.addPrereq("TSPORTALINTRO", "OCULUS", false);
+mods.thaumcraft.Research.addPrereq("TSPORTALELDRITCH", "TSPORTALINTRO", false);
+mods.thaumcraft.Research.addPrereq("TSPORTALELDRITCH", "GADOMANCY.GROWING", false);
+mods.thaumcraft.Research.addPrereq("TSPORTALELDRITCH", "VOIDPRAETOR", false);
+mods.thaumcraft.Research.addPrereq("TSPORTALELDRITCH", "DIMENSIONLURE", false);
+mods.thaumcraft.Research.addPrereq("TSPORTALELDRITCH", "FOCUS_RECALL", false);
+mods.thaumcraft.Research.addPrereq("TSPORTALELDRITCH", "selfInfusion", false);
+
 ##########################
 #Ender Tank Research Tree#
 ##########################
@@ -131,4 +162,7 @@ game.setLocalization("en_US", "ts.research_page.ENDERTANK", "When it's that time
 mods.thaumcraft.Research.addInfusionPage("ENDERTANK", <EnderStorage:enderChest:4096>);
 mods.thaumcraft.Research.addPrereq("ENDERTANK", "ENDERPUMP", false);
 mods.thaumcraft.Warp.addToResearch("ENDERTANK", 5);
+
+
+
 
