@@ -10,7 +10,7 @@ deploy:
     secure: g6gY24AdkvaI9bz1+ApwBPsfTfghySm1ML3I2pjKM3FatStJ2ruu5NRfEKMHtvKJWNEduTCIwkxVqSTThEpbO482+3wnSJT9wXYHlHpezSEBMkE7mKKDkfIl13hnE1S3cKXYNHayR0dEvXuCpFhtXCtckWxTB0Nf+gyeJRqSUMlMPPzL5yHT4sKWMx0jXV8SCGWiNI2iFXBz0JuFLmYV4E0pGPkRuULmLRoFgYkL0S3xm8zVXfjr5EQuQq8PyPNqt4E7Y79gR9Sx0ZYUO+Y9iCrF6obfF8lwBTzVvA8D5KC2HZvjuGkcAr4HB83qjfLSBnY+M6ktqCkhsICLKcNQqmGPhRplkW8VKZtWeo5A8V6ycUz7zMGD2JR7AcdzH+frLfK0O6Ofw+zWXRXWG4hVkZv823JcOX+p7iLr7unZWfdOB3ncuFfIxIOMY6ljmSy+hkKM7DktKdHgorI2+WXqSqEWfOTp7HDrgDzKamWC8KGQLwSbU6n9JbanR2yXMICQGlLyIncP9Xj6cYf1B+8F44Slp6iC1CFZ5cX5Z8cRuLRFd/N/VXX8YB6wq03hGdgoTJF3fgN4CxxUMwK4KaV8jvNsRgP9CCRXlZdxfu/wW+5kUwi7j0eFI8Hsnngilf8Beqv1Hi9ZFSiv8jrGUsL+Q0W1J1xsRfPVX3BT+hKVYIQ=
   file_glob: true
   file:
-  - build/ThaumicSkies_*_Client.zip
-  - build/ThaumicSkies_*_Server.zip
+  - build/Thaumic Skies_*_Client.zip
+  - build/Thaumic Skies_*_Server.zip
   on:
     tags: true
