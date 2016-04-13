@@ -40,3 +40,7 @@ mods.tconstruct.Smeltery.addMelting(<ore:nuggetManasteel>, <liquid:manasteel.mol
 #Recipe Conflicts
 recipes.removeShaped(<ExtraUtilities:curtains>);
 recipes.addShaped(<ExtraUtilities:curtains> * 16, [[<minecraft:wool>, <minecraft:wool>, <minecraft:wool>],[<minecraft:wool>, <minecraft:wool>, <minecraft:wool>],[<minecraft:wool>, <minecraft:wool>, <minecraft:wool>]]);
+
+#Omni-Tools - WrenchModul
+recipes.removeShaped(<OmniStuff:wrenchModule>);
+recipes.addShaped(<OmniStuff:wrenchModule>, [[null, null, null],[<ThermalExpansion:wrench>, <OmniStuff:bindingCatalyst>, <minecraft:blaze_powder>],[null, null, null]]);
