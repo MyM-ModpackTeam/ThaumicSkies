@@ -1,13 +1,13 @@
 #World Gen Replacements
 
 #AE2
-mods.appeng.Inscriber.removeRecipe(<appliedenergistics2:item.ItemMultiMaterial:19>);
+//mods.appeng.Inscriber.removeRecipe(<appliedenergistics2:item.ItemMultiMaterial:19>);
 mods.exnihilo.Sieve.addRecipe(<WitchingGadgets:WG_MetalDevice:7>, <appliedenergistics2:item.ItemMultiMaterial:19>, 1);
-mods.appeng.Inscriber.removeRecipe(<appliedenergistics2:item.ItemMultiMaterial:13>);
+//mods.appeng.Inscriber.removeRecipe(<appliedenergistics2:item.ItemMultiMaterial:13>);
 mods.exnihilo.Sieve.addRecipe(<Botania:storage:2>, <appliedenergistics2:item.ItemMultiMaterial:13>, 1);
-mods.appeng.Inscriber.removeRecipe(<appliedenergistics2:item.ItemMultiMaterial:15>);
+//mods.appeng.Inscriber.removeRecipe(<appliedenergistics2:item.ItemMultiMaterial:15>);
 mods.exnihilo.Sieve.addRecipe(<EnderIO:blockIngotStorage:2>, <appliedenergistics2:item.ItemMultiMaterial:15>, 1);
-mods.appeng.Inscriber.removeRecipe(<appliedenergistics2:item.ItemMultiMaterial:14>);
+//mods.appeng.Inscriber.removeRecipe(<appliedenergistics2:item.ItemMultiMaterial:14>);
 mods.exnihilo.Sieve.addRecipe(<ThermalFoundation:Storage:12>, <appliedenergistics2:item.ItemMultiMaterial:14>, 1);
 
 #Botania
@@ -31,24 +31,10 @@ recipes.addShaped(<minecraft:dirt:2>, [[<ore:treeLeaves>, <ore:treeLeaves>, <ore
 
 #Thaumcraft Stuff
 mods.thaumcraft.Crucible.addRecipe("ALCHEMICALMANUFACTURE", <appliedenergistics2:item.ItemMultiMaterial:1>, <appliedenergistics2:item.ItemMultiMaterial>, "potentia 16");
-
 mods.thaumcraft.Infusion.addRecipe("INFUSION", <minecraft:book>, [<TaintedMagic:CrystalBloodDrop>, <Thaumcraft:ItemResource:9>, <TaintedMagic:CrystalBloodDrop>, <Thaumcraft:ItemResource:9>, <TaintedMagic:CrystalBloodDrop>, <Thaumcraft:ItemResource:9>, <TaintedMagic:CrystalBloodDrop>, <Thaumcraft:ItemResource:9>], "cognitio 32, alienis 32, praecantatio 32", <Thaumcraft:ItemEldritchObject:1>, 10);
-
 mods.thaumcraft.Arcane.addShaped("ASPECTS", <Thaumcraft:FocusPech>, "perditio 50", [[<Thaumcraft:ItemShard:5>, <minecraft:quartz>, <Thaumcraft:ItemShard:5>], [<minecraft:quartz>, <minecraft:poisonous_potato>, <minecraft:quartz>], [<Thaumcraft:ItemShard:5>, <minecraft:quartz>, <Thaumcraft:ItemShard:5>]]);
-
 mods.thaumcraft.Crucible.addRecipe("ASPECTS", <Thaumcraft:blockTaint:1>, <minecraft:dirt>, "praecantatio 8, perditio 8");
 mods.thaumcraft.Crucible.addRecipe("ASPECTS", <Thaumcraft:blockTaint>, <minecraft:gravel>, "praecantatio 8, perditio 8");
-
-#OuterlandsPortal
-mods.thaumcraft.Infusion.addRecipe("TSPORTALELDRITCH", <appliedenergistics2:item.ItemMultiMaterial:47>, [<Thaumcraft:ItemEldritchObject:1>, <gadomancy:BlockStoneMachine:3>, <AWWayofTime:demonicTelepositionFocus>, <Thaumcraft:ItemEldritchObject>, <technom:teslaCoil>, <Botania:manaResource:14>, <Thaumcraft:ItemEldritchObject:1>, <thaumicbases:nodeManipulator>, <DraconicEvolution:awakenedCore>, <Thaumcraft:ItemEldritchObject>, <technom:itemTransmitter>, <ThaumicTinkerer:focusRecall>, <Thaumcraft:ItemEldritchObject:1>, <gadomancy:BlockNodeManipulator:5>, <AWWayofTime:demonicTelepositionFocus>, <Thaumcraft:ItemEldritchObject>, <technom:teslaCoil>, <Botania:manaResource:14>, <Thaumcraft:ItemEldritchObject:1>, <thaumicbases:nodeLinker>, <DraconicEvolution:awakenedCore>, <Thaumcraft:ItemEldritchObject>, <technom:itemTransmitter>, <ThaumicTinkerer:focusRecall>], "alienis 200, iter 50, terminus 50, aer 100, aqua 50, ignis 50, terra 50, ordo 50, perditio 50, tempus 10, telum 10, vacuos 35, permutatio 75, cognitio 40", <Thaumcraft:blockPortalEldritch>, 30);
-
-#Boss spawn eggs
-mods.thaumcraft.Arcane.addShaped("TSPORTALELDRITCH", <Thaumcraft:ItemSpawnerEgg:7>, "aer 150, ignis 150, aqua 150, terra 150, ordo 150, perditio 150", [[<gadomancy:BlockAdditionalEldritchPortal>, null, null], [null, null, null], [null, null, null]]);
-mods.thaumcraft.Arcane.addShaped("TSPORTALELDRITCH", <Thaumcraft:ItemSpawnerEgg:10>, "aer 150, ignis 150, aqua 150, terra 150, ordo 150, perditio 150", [[null, <gadomancy:BlockAdditionalEldritchPortal>, null], [null, null, null], [null, null, null]]);
-mods.thaumcraft.Arcane.addShaped("TSPORTALELDRITCH", <Thaumcraft:ItemSpawnerEgg:11>, "aer 150, ignis 150, aqua 150, terra 150, ordo 150, perditio 150", [[null, null, <gadomancy:BlockAdditionalEldritchPortal>], [null, null, null], [null, null, null]]);
-mods.thaumcraft.Arcane.addShaped("TSPORTALELDRITCH", <Thaumcraft:ItemSpawnerEgg:12>, "aer 150, ignis 150, aqua 150, terra 150, ordo 150, perditio 150", [[null, null, null], [<gadomancy:BlockAdditionalEldritchPortal>, null, null], [null, null, null]]);
-recipes.addShapeless(<gadomancy:BlockAdditionalEldritchPortal>, [<Thaumcraft:blockPortalEldritch>]);
-recipes.addShapeless(<Thaumcraft:blockPortalEldritch>, [<gadomancy:BlockAdditionalEldritchPortal>]);
 
 
 
