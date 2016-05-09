@@ -131,13 +131,44 @@ mods.thaumcraft.Arcane.addShaped("AUGMENTS", <ThermalExpansion:augment:49>, "ord
 #dynamoSidesAugment
 mods.thaumcraft.Arcane.addShaped("AUGMENTS", <ThermalExpansion:augment:48>, "ordo 5, aer 5, perditio 5, ignis 5", [[null, <ore:nuggetLead>, null],[<ore:nuggetLead>, <ore:ingotCopper>, <ore:nuggetLead>],[null, <ore:nuggetLead>, null]]);
 
+#Pulverizer
+mods.thaumcraft.Arcane.addShaped("PULVERIZER", <ThermalExpansion:Machine:1>, "terra 1, perditio 2, ordo 1", [[null, <minecraft:piston>, null],[<ore:itemFlint>, <ThermalExpansion:Frame>, <ore:itemFlint>],[<ore:gearCopper>, <ThermalExpansion:material:1>, <ore:gearCopper>]]);
+
+#Sawmill
+mods.thaumcraft.Arcane.addShaped("SAWMILL", <ThermalExpansion:Machine:2>, "terra 3, perditio 2, ordo 1", [[null, <minecraft:iron_axe>, null],[<ore:plankWood>,<ThermalExpansion:Frame>,<ore:plankWood>],[<ore:gearCopper>, <ThermalExpansion:material:1>, <ore:gearCopper>]]);
+
+#InductionSmelter
+mods.thaumcraft.Arcane.addShaped("INDUCTSMELTER",<ThermalExpansion:Machine:3>, "terra 2, ignis 4, ordo 3",[[null, <minecraft:bucket>, null],[<ore:ingotInvar>,<ThermalExpansion:Frame>,<ore:ingotInvar>],[<ore:gearInvar>, <ThermalExpansion:material:1>, <ore:gearInvar>]]);
+
+#MagmaCrucible
+mods.thaumcraft.Arcane.addShaped("INDUCTSMELTER",<ThermalExpansion:Machine:4>, "terra 2, ignis 4, ordo 3",[[null, <ThermalExpansion:Frame:4>, null],[<Thaumcraft:blockCrystal:1>,<ThermalExpansion:Frame>,<Thaumcraft:blockCrystal:1>],[<ore:gearInvar>, <ThermalExpansion:material:1>, <ore:gearInvar>]]);
+
+#FluidTransposer
+mods.thaumcraft.Arcane.addShaped("INDUCTSMELTER",<ThermalExpansion:Machine:5>, "aqua 4, ordo 3, terra 2",[[null, <minecraft:bucket>, null],[<ore:blockGlass>,<ThermalExpansion:Frame>,<ore:blockGlass>],[<ore:gearCopper>, <ThermalExpansion:material:1>, <ore:gearCopper>]]);
 
 
+#GlacialPrecipitator
+mods.thaumcraft.Arcane.addShaped("GLACIALPRECIPITATOR",<ThermalExpansion:Machine:6>, "aqua 4, ordo 3, terra 2, ignis 1, perditio 1",[[null, <minecraft:piston>, null],[<Thaumcraft:blockCrystal:2>,<ThermalExpansion:Frame>,<Thaumcraft:blockCrystal:2>],[<ore:gearCopper>, <ThermalExpansion:material:1>, <ore:gearCopper>]]);
 
+#AqueousAccumulator
+mods.thaumcraft.Arcane.addShaped("AQACCUMULATOR",<ThermalExpansion:Machine:8>, "aqua 4, ordo 3, aer 2",[[null, <minecraft:bucket>, null],[<Thaumcraft:blockCrystal:0>,<ThermalExpansion:Frame>,<Thaumcraft:blockCrystal:2>],[<ore:gearCopper>, <ThermalExpansion:material>, <ore:gearCopper>]]);
 
+#IgneousExtruder
+mods.thaumcraft.Arcane.addShaped("IGNEOUSEXTRUDER",<ThermalExpansion:Machine:7>, "aqua 4, ignis 4, terra 2, perditio 2",[[null, <minecraft:bucket>, null],[<Thaumcraft:blockCrystal:1>,<ThermalExpansion:Frame>,<Thaumcraft:blockCrystal:2>],[<ore:gearCopper>, <ThermalExpansion:material>, <ore:gearCopper>]]);
 
+#CyclicAssembler
+mods.thaumcraft.Arcane.addShaped("CYCLICASSEMBLER",<ThermalExpansion:Machine:9>, "ordo 4, perditio 3, aqua 2, terra 1, aer 1, ignis 1",[[null, <minecraft:chest>, null],[<ore:gearTin>,<Automagy:blockGolemWorkbench>,<ore:gearTin>],[<ore:gearCopper>, <ThermalExpansion:material:1>, <ore:gearCopper>]]);
 
+#EnergeticInfuser
+mods.thaumcraft.Arcane.addShaped("ENERGETICINFUSER",<ThermalExpansion:Machine:10>, "ordo 4, ignis 4",[[<ore:blockSalisMundus>, <ThermalExpansion:Frame:4>, <ore:blockSalisMundus>],[<ThermalExpansion:material:2>,<ThermalExpansion:Frame>,<ThermalExpansion:material:2>],[<ore:gearCopper>, <ThermalExpansion:material:1>, <ore:gearCopper>]]);
 
+#PhytogenicInsolator
+mods.thaumcraft.Arcane.addShaped("PHYTOGENICINSOLATOR",<ThermalExpansion:Machine:11>, "ordo 4, ignis 4",[[null, <ore:gearLumium>, null],[<minecraft:dirt>,<ThermalExpansion:Frame>,<minecraft:dirt>],[<ore:gearCopper>, <Thaumcraft:blockMetalDevice:8>, <ore:gearCopper>]]);
 
+#AvaritaDireCraftingTable
+recipes.removeShaped(<Avaritia:Dire_Crafting>);
+mods.thaumcraft.Infusion.addRecipe("DIRECRAFTER", <Avaritia:Triple_Craft>, [<Avaritia:Resource:1>,<Avaritia:Resource:1>,<Avaritia:Resource:1>,<Avaritia:Resource:1>,<Avaritia:Resource:1>,<Avaritia:Resource:1>,<Avaritia:Resource:1>,<Avaritia:Resource:1>], "terminus 12, permutatio 12, fabrico 230, machina 30, superbia 50, luxuria 12, alienis 30 potentia 100", <Avaritia:Dire_Crafting>, 25);
 
+#ChargedCertusQuartz
+mods.thaumcraft.Crucible.addRecipe("CERTUSQUARTZCHARGED", <appliedenergistics2:item.ItemMultiMaterial:1>, <appliedenergistics2:item.ItemMultiMaterial>, "potentia 16");
 

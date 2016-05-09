@@ -134,6 +134,139 @@ game.setLocalization("tc.research_page.AUGMENTS.foodFurnace", "After a few exper
 game.setLocalization("tc.research_page.AUGMENTS.dynamoEfficiency", "This augment increases the efficiency of your dynamos, meaning it wastes less of the heat generated thus being able to increase the burn time of an item. Unfortunately, the energy output doesnt rise...");
 game.setLocalization("tc.research_page.AUGMENTS.dynamoPower", "This augment increases the temperature at which it burns its fuel, resulting in a higher energy output. Unfortunately, this also means your items last much shorter...");
 game.setLocalization("tc.research_page.AUGMENTS.dynamoPreserve", "This augment helps you to waste less RF by throttling the dynamo better once full!<BR>Needs redstone control installed as well!");
-game.setLocalization("tc.research_page.AUGMENTS.dynamoSides", "This augment lets you import fuel from the coil of a dynamo, which usually is preserved for the energy output, making it useful with enderIO conduits or plated itemducts");
+game.setLocalization("tc.research_page.AUGMENTS.dynamoSides", "This augment lets you import fuel from the coil of a dynamo, which usually is preserved for the energy output, making it useful with enderIO conduits or fluctuating itemducts");
+
+
+#Pulverizer
+mods.thaumcraft.Research.addResearch("PULVERIZER","TETHAUMSKIES","perditio 4, machina 4, metallum 4",1,-2,2,<ThermalExpansion:Machine:1>);
+game.setLocalization("tc.research_name.PULVERIZER", "Pulverizer");
+game.setLocalization("tc.research_text.PULVERIZER", "SMASH IT!");
+mods.thaumcraft.Research.addPage("PULVERIZER", "tc.research_page.PULVERIZER1");
+game.setLocalization("tc.research_page.PULVERIZER1", "Now that you had a base you originally wanted a machine capable of smashing all those pesky zombies and skelletons, not to talk about those creepers...<BR>Instead you found a way to smash blocks and items into smaller blocks and items...");
+mods.thaumcraft.Research.addArcanePage("PULVERIZER", <ThermalExpansion:Machine:1>);
+mods.thaumcraft.Research.addPrereq("PULVERIZER", "MACHINEFRAMECLONE", false);
+mods.thaumcraft.Research.setConcealed("PULVERIZER", true);
+
+#SawMill
+mods.thaumcraft.Research.addResearch("SAWMILL","TETHAUMSKIES", "machina 4, arbor 4, permutatio 4, perditio 4", 2, -3, 2, <ThermalExpansion:Machine:2>);
+mods.thaumcraft.Research.addPrereq("SAWMILL","PULVERIZER", false);
+mods.thaumcraft.Research.setConcealed("SAWMILL", true);
+mods.thaumcraft.Research.setSecondary("SAWMILL", true);
+game.setLocalization("tc.research_name.SAWMILL", "Sawmill");
+game.setLocalization("tc.research_text.SAWMILL", "Cutting instead of Smashing");
+mods.thaumcraft.Research.addPage("SAWMILL", "tc.research_page.SAWMILL1");
+game.setLocalization("tc.research_page.SAWMILL1", "After improving your sawmill further you modified it so you can cut wood instead of smashing things with it");
+mods.thaumcraft.Research.addArcanePage("SAWMILL", <ThermalExpansion:Machine:2>);
+
+
+#InductionFurnace
+mods.thaumcraft.Research.addResearch("INDUCTSMELTER","TETHAUMSKIES", "machina 4, ignis 4, permutatio 4, perditio 4", -2, -3, 2, <ThermalExpansion:Machine:3>);
+mods.thaumcraft.Research.addPrereq("INDUCTSMELTER","TESMELTER", false);
+mods.thaumcraft.Research.setConcealed("INDUCTSMELTER", true);
+mods.thaumcraft.Research.setSecondary("INDUCTSMELTER", true);
+game.setLocalization("tc.research_name.INDUCTSMELTER", "Induction Smelter");
+game.setLocalization("tc.research_text.INDUCTSMELTER", "Absolutely NOT for cooking food!");
+mods.thaumcraft.Research.addPage("INDUCTSMELTER", "tc.research_page.INDUCTSMELTER1");
+game.setLocalization("tc.research_page.INDUCTSMELTER1", "After another look at your blueprints you accidently spilled some magical substances over the one of your redstone furnace. Suddenly the blueprint started to show you another machine's blueprint before exploding. Fortunately, you managed to reproduce the machine!<BR>The induction smelter lets you combine 2 different items by smelting them together!");
+mods.thaumcraft.Research.addArcanePage("INDUCTSMELTER", <ThermalExpansion:Machine:3>);
+
+#MagmaCrucible
+mods.thaumcraft.Research.addResearch("MAGMACRUCIBLE","TETHAUMSKIES", "ignis 4, permutatio 4, limus 2, machina 2", -1, -3, 2, <ThermalExpansion:Machine:4>);
+mods.thaumcraft.Research.addPrereq("MAGMACRUCIBLE","TESMELTER", false);
+mods.thaumcraft.Research.setConcealed("MAGMACRUCIBLE", true);
+mods.thaumcraft.Research.setSecondary("MAGMACRUCIBLE", true);
+game.setLocalization("tc.research_name.MAGMACRUCIBLE", "Magma Crucible");
+game.setLocalization("tc.research_text.MAGMACRUCIBLE", "Yes, it can make lava. You monster.");
+mods.thaumcraft.Research.addPage("MAGMACRUCIBLE", "tc.research_page.MAGMACRUCIBLE1");
+game.setLocalization("tc.research_page.MAGMACRUCIBLE1", "Now that you had a furnace you wanted to improve it and make it become even hotter. As result, you learned, that even stone and ender pearls can emlt once becoming too hot.<BR>Inspired by that, you created a device capable of melting items into fluids!");
+mods.thaumcraft.Research.addArcanePage("MAGMACRUCIBLE", <ThermalExpansion:Machine:4>);
+
+#FluidTransposer
+mods.thaumcraft.Research.addResearch("FLUIDTRANSPOSER","TETHAUMSKIES", "limus 4, permutatio 4, vacuos 3, machina 2", -1, -4, 2, <ThermalExpansion:Machine:5>);
+mods.thaumcraft.Research.addPrereq("FLUIDTRANSPOSER","TESMELTER", false);
+mods.thaumcraft.Research.setConcealed("FLUIDTRANSPOSER", true);
+mods.thaumcraft.Research.setSecondary("FLUIDTRANSPOSER", true);
+game.setLocalization("tc.research_name.FLUIDTRANSPOSER", "Fluid Transposer");
+game.setLocalization("tc.research_text.FLUIDTRANSPOSER", "Filling buckets by hand is hard work.");
+mods.thaumcraft.Research.addPage("FLUIDTRANSPOSER", "tc.research_page.FLUIDTRANSPOSER1");
+game.setLocalization("tc.research_page.FLUIDTRANSPOSER1", "After another burn mark received from hot fluids, you decided to create a machine capable of filling the fluids into buckets... <BR>The fluid transposer lets you do that and more: You can also infuse some items with fluids!");
+mods.thaumcraft.Research.addArcanePage("FLUIDTRANSPOSER", <ThermalExpansion:Machine:5>);
+
+
+#GlacialPrecipitator
+mods.thaumcraft.Research.addResearch("GLACIALPRECIPITATOR","TETHAUMSKIES", "limus 4, permutatio 4, vacuos 3, machina 2", -2, -4, 2, <ThermalExpansion:Machine:6>);
+mods.thaumcraft.Research.addPrereq("GLACIALPRECIPITATOR","MAGMACRUCIBLE", false);
+mods.thaumcraft.Research.setConcealed("GLACIALPRECIPITATOR", true);
+mods.thaumcraft.Research.setSecondary("GLACIALPRECIPITATOR", true);
+game.setLocalization("tc.research_name.GLACIALPRECIPITATOR", "Glacial Precipitator");
+game.setLocalization("tc.research_text.GLACIALPRECIPITATOR", "SNOWBALL FIGHT!");
+mods.thaumcraft.Research.addPage("GLACIALPRECIPITATOR", "tc.research_page.GLACIALPRECIPITATOR1");
+game.setLocalization("tc.research_page.GLACIALPRECIPITATOR1", "Now that you had a machine capable of smelting items into fluids it was easy to revert the whole process by adding the essence of ice and using water instead of fire clusters. <BR>The precipitator lets you cool down water thus creating either snowballs, snow blocks or ice blocks.");
+mods.thaumcraft.Research.addArcanePage("GLACIALPRECIPITATOR", <ThermalExpansion:Machine:6>);
+
+
+#AqueousAccumulator
+mods.thaumcraft.Research.addResearch("AQACCUMULATOR","TETHAUMSKIES", "aqua 4, tempestas 4, aer 3, machina 2", -1, 2, 2, <ThermalExpansion:Machine:8>);
+mods.thaumcraft.Research.addPrereq("AQACCUMULATOR","MACHINEFRAMECLONE", false);
+mods.thaumcraft.Research.setConcealed("AQACCUMULATOR", true);
+mods.thaumcraft.Research.setSecondary("AQACCUMULATOR", true);
+game.setLocalization("tc.research_name.AQACCUMULATOR", "Aqueous Accumulator");
+game.setLocalization("tc.research_text.AQACCUMULATOR", "No, it does not work with lava. You monster.");
+mods.thaumcraft.Research.addPage("AQACCUMULATOR", "tc.research_page.AQACCUMULATOR1");
+game.setLocalization("tc.research_page.AQACCUMULATOR1", "You always wondered where exactly the water vanished in the air goes? Per chance, you found out it didn't disappear - just vaporize in the air!<BR>Now you finally found a use for that: The aqueous accumulator uses the water from the air and lets it condensate to become drinkable again!"); 
+mods.thaumcraft.Research.addArcanePage("AQACCUMULATOR", <ThermalExpansion:Machine:8>);
+
+
+#IgneousExtruder
+mods.thaumcraft.Research.addResearch("IGNEOUSEXTRUDER","TETHAUMSKIES", "perfodio 4, terra 4, ignis 4, tenebrae 4, ignis 4, permutatio 2, vitreus 2", -2, 3, 2, <ThermalExpansion:Machine:7>);
+mods.thaumcraft.Research.addPrereq("IGNEOUSEXTRUDER","AQACCUMULATOR", false);
+mods.thaumcraft.Research.setConcealed("IGNEOUSEXTRUDER", true);
+mods.thaumcraft.Research.setSecondary("IGNEOUSEXTRUDER", true);
+game.setLocalization("tc.research_name.IGNEOUSEXTRUDER", "Igneous Extruder");
+game.setLocalization("tc.research_text.IGNEOUSEXTRUDER", "This thing rocks!");
+mods.thaumcraft.Research.addPage("IGNEOUSEXTRUDER", "tc.research_page.IGNEOUSEXTRUDER1");
+game.setLocalization("tc.research_page.IGNEOUSEXTRUDER1", "Now that you knew of a way to get infinite Water, you wanted one to get infinite Cobblestone as well!<BR>Combining water and lava, the igneous extruder creates either cobblestone, stone or even obsidian!"); 
+mods.thaumcraft.Research.addArcanePage("IGNEOUSEXTRUDER", <ThermalExpansion:Machine:7>);
+
+#CyclicAssembler
+mods.thaumcraft.Research.addResearch("CYCLICASSEMBLER","TETHAUMSKIES", "permutatio 4, fabrico 4, instrumentum 3, machina 2, praecantatio 1", 0, 1, 2, <ThermalExpansion:Machine:9>);
+mods.thaumcraft.Research.addPrereq("CYCLICASSEMBLER","MACHINEFRAMECLONE", false);
+mods.thaumcraft.Research.addPrereq("CYCLICASSEMBLER", "GOLEMWORKBENCH", false);
+mods.thaumcraft.Research.setConcealed("CYCLICASSEMBLER", true);
+game.setLocalization("tc.research_name.CYCLICASSEMBLER", "Cyclic Assembler");
+game.setLocalization("tc.research_text.CYCLICASSEMBLER", "No, it won't craft that.");
+mods.thaumcraft.Research.addPage("CYCLICASSEMBLER", "tc.research_page.CYCLICASSEMBLER1");
+game.setLocalization("tc.research_page.CYCLICASSEMBLER1", "By now, you have grown tired of crafting everything by hand, so you decided to let a machine do that for you!<BR>The Cyclic assembler crafts items for you, give he has a valid Schematic of the item in stored.<BR>It also has an internal fluid tank to drain fluid from instead of using filled buckets (those still work, though)!"); 
+mods.thaumcraft.Research.addArcanePage("CYCLICASSEMBLER", <ThermalExpansion:Machine:9>);
+
+
+
+#EnergeticInfuser
+mods.thaumcraft.Research.addResearch("ENERGETICINFUSER","TETHAUMSKIES", "permutatio 4, fabrico 4, instrumentum 3, machina 2, praecantatio 1", 1, 2, 2, <ThermalExpansion:Machine:10>);
+mods.thaumcraft.Research.addPrereq("ENERGETICINFUSER","MACHINEFRAMECLONE", false);
+mods.thaumcraft.Research.setConcealed("ENERGETICINFUSER", true);
+game.setLocalization("tc.research_name.ENERGETICINFUSER", "Energetic Infuser");
+game.setLocalization("tc.research_text.ENERGETICINFUSER", "Flux knows no bounds, so watch your hands.");
+mods.thaumcraft.Research.addPage("ENERGETICINFUSER", "tc.research_page.ENERGETICINFUSER1");
+game.setLocalization("tc.research_page.ENERGETICINFUSER1", "After only using potato batteries to charge your items, you wondered whether you could find another way of infusing Redstone Flux energy into your items.<BR>That's what you made the energetic infuser for: Charging items with RF!"); 
+mods.thaumcraft.Research.addArcanePage("ENERGETICINFUSER", <ThermalExpansion:Machine:10>);
+
+
+#PhytogenicInsolator
+mods.thaumcraft.Research.addResearch("PHYTOGENICINSOLATOR","TETHAUMSKIES", "permutatio 4, fabrico 4, instrumentum 3, machina 2, praecantatio 1", 2, 3, 2, <ThermalExpansion:Machine:11>);
+mods.thaumcraft.Research.addPrereq("PHYTOGENICINSOLATOR","ENERGETICINFUSER", false);
+mods.thaumcraft.Research.setConcealed("PHYTOGENICINSOLATOR", true);
+mods.thaumcraft.Research.setSecondary("PHYTOGENICINSOLATOR", true);
+game.setLocalization("tc.research_name.PHYTOGENICINSOLATOR", "PhytogenicInsolator");
+game.setLocalization("tc.research_text.PHYTOGENICINSOLATOR", "Definitely not organic.");
+mods.thaumcraft.Research.addPage("PHYTOGENICINSOLATOR", "tc.research_page.PHYTOGENICINSOLATOR1");
+game.setLocalization("tc.research_page.PHYTOGENICINSOLATOR1", "Now that you knew of a way to infuse RF into tools, you widened your mind to not only infuse liveless things with energy, but also plants!<BR>Using Energy and a special fertilizer, you managed to make plants grow at a much faster rate!"); 
+mods.thaumcraft.Research.addArcanePage("PHYTOGENICINSOLATOR", <ThermalExpansion:Machine:11>);
+mods.thaumcraft.Research.addPrereq("PHYTOGENICINSOLATOR","LAMPGROWTH",false);
+
+
+
+
+
 
 

@@ -30,7 +30,6 @@ mods.botania.Apothecary.addRecipe(<Botania:flower:15>, [<Botania:petal:15>, <Bot
 recipes.addShaped(<minecraft:dirt:2>, [[<ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>],[<ore:treeLeaves>, <minecraft:dirt>, <ore:treeLeaves>],[<ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>]]);
 
 #Thaumcraft Stuff
-mods.thaumcraft.Crucible.addRecipe("ALCHEMICALMANUFACTURE", <appliedenergistics2:item.ItemMultiMaterial:1>, <appliedenergistics2:item.ItemMultiMaterial>, "potentia 16");
 mods.thaumcraft.Infusion.addRecipe("INFUSION", <minecraft:book>, [<TaintedMagic:CrystalBloodDrop>, <Thaumcraft:ItemResource:9>, <TaintedMagic:CrystalBloodDrop>, <Thaumcraft:ItemResource:9>, <TaintedMagic:CrystalBloodDrop>, <Thaumcraft:ItemResource:9>, <TaintedMagic:CrystalBloodDrop>, <Thaumcraft:ItemResource:9>], "cognitio 32, alienis 32, praecantatio 32", <Thaumcraft:ItemEldritchObject:1>, 10);
 mods.thaumcraft.Arcane.addShaped("ASPECTS", <Thaumcraft:FocusPech>, "perditio 50", [[<Thaumcraft:ItemShard:5>, <minecraft:quartz>, <Thaumcraft:ItemShard:5>], [<minecraft:quartz>, <minecraft:poisonous_potato>, <minecraft:quartz>], [<Thaumcraft:ItemShard:5>, <minecraft:quartz>, <Thaumcraft:ItemShard:5>]]);
 mods.thaumcraft.Crucible.addRecipe("ASPECTS", <Thaumcraft:blockTaint:1>, <minecraft:dirt>, "praecantatio 8, perditio 8");
@@ -44,6 +43,7 @@ recipes.addShaped(<evilcraft:environmentalAccumulationCore>, [[<evilcraft:darkPo
 
 #Tinkers' Construct
 recipes.addShapeless(<TConstruct:slime.sapling>, [<ore:treeSapling>, <ore:slimeball>]);
+mods.exnihilo.Sieve.addRecipe(<Thaumcraft:blockCosmeticSolid:4>,<TConstruct:ore.berries.two:9>, 33);
 
 #Chisel
 recipes.addShaped(<chisel:cloud>, [[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>],[<minecraft:glass>, <minecraft:feather>, <minecraft:glass>],[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>]]);
