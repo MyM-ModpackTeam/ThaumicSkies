@@ -44,7 +44,17 @@ mods.avaritia.ExtremeCrafting.addShaped(<ThermalExpansion:Cell>, [
 [<DraconicEvolution:draconicBlock>, <BigReactors:BRTurbinePart>, <BigReactors:BRTurbinePart>, <BigReactors:BRTurbinePart>, <BigReactors:BRTurbinePart:4>, <BigReactors:BRTurbinePart>, <BigReactors:BRTurbinePart>, <BigReactors:BRTurbinePart>, <DraconicEvolution:draconicBlock>],
 [<DraconicEvolution:draconicBlock>, <DraconicEvolution:draconicBlock>, <DraconicEvolution:draconicBlock>, <EMT:EMTSolars2:4>, <EMT:EMTSolars:11>, <EMT:EMTSolars:8>, <DraconicEvolution:draconicBlock>, <DraconicEvolution:draconicBlock>, <DraconicEvolution:draconicBlock>]]);
 
-
+#Green Heart Canister
+mods.avaritia.ExtremeCrafting.addShaped(<TConstruct:heartCanister:6>,[
+[null, null, <minecraft:iron_block>, <minecraft:iron_block>, <minecraft:iron_block>, <minecraft:iron_block>, <minecraft:iron_block>, null, null],
+[null, <minecraft:iron_block>, <TConstruct:heartCanister>, <TConstruct:heartCanister>, <DraconicEvolution:dragonHeart>, <TConstruct:heartCanister>, <TConstruct:heartCanister>, <minecraft:iron_block>, null],
+[<minecraft:iron_block>, <TConstruct:heartCanister>, <minecraft:emerald>, <minecraft:emerald>, <TConstruct:heartCanister>, <minecraft:emerald>, <minecraft:emerald>, <TConstruct:heartCanister>, <minecraft:iron_block>],
+[<minecraft:iron_block>, <minecraft:emerald>, <minecraft:emerald>, <minecraft:emerald>, <minecraft:emerald>, <minecraft:emerald>, <minecraft:emerald>, <minecraft:emerald>, <minecraft:iron_block>],
+[<minecraft:iron_block>, <minecraft:emerald>, <minecraft:emerald>, <minecraft:emerald>, <minecraft:emerald>, <minecraft:emerald>, <minecraft:emerald>, <minecraft:emerald>, <minecraft:iron_block>],
+[<minecraft:iron_block>, <TConstruct:heartCanister>, <minecraft:emerald>, <minecraft:emerald>, <TConstruct:heartCanister:4>, <minecraft:emerald>, <minecraft:emerald>, <TConstruct:heartCanister>, <minecraft:iron_block>],
+[<minecraft:iron_block>, <TConstruct:heartCanister>, <TConstruct:heartCanister>, <minecraft:emerald>, <minecraft:emerald>, <minecraft:emerald>, <TConstruct:heartCanister>, <TConstruct:heartCanister>, <minecraft:iron_block>],
+[null, <minecraft:iron_block>, <TConstruct:heartCanister>, <TConstruct:heartCanister>, <minecraft:emerald>, <TConstruct:heartCanister>, <TConstruct:heartCanister>, <minecraft:iron_block>, null],
+[null, null, <minecraft:iron_block>, <minecraft:iron_block>, <minecraft:iron_block>, <minecraft:iron_block>, <minecraft:iron_block>, null, null]]);
 
 
 

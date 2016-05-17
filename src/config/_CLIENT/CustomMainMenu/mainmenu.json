@@ -1,0 +1,143 @@
+{
+    "images":
+    {
+		
+    },
+    
+    "buttons":
+    {
+        "playgame":
+        {
+            "text" : "Start!",
+            "posX" : -100,
+            "posY" : 0,
+            "width" : 200,
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "mainmenu:longbutton.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "custom.playgame"
+            }
+        },        
+      
+        "optionsmods":
+        {
+            "text" : "Options / Mods",
+            "posX" : -100,
+            "posY" : 25,
+            "width" : 200,
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "mainmenu:longbutton.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "custom.optionsmods"
+            }
+        },
+		
+      
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : -100,
+            "posY" : 100,
+            "width" : 200,
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "mainmenu:longbutton.png",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        }	
+    },
+    
+    "texts":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB",
+            "posX" : -65,
+            "posY" : -13,
+			"fontSize" : .6,
+            "color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "bottom_right"
+        },
+		"forge":{
+			"text" : "Minecraft #mcversion#",
+            "posX" : 3,
+            "posY" : -19,
+			"fontSize" : .6,
+            "color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "bottom_left"
+		},
+		"modsloaded":{
+			"text" : "#modsloaded# Mods Loaded",
+            "posX" : 3,
+            "posY" : -13,
+			"fontSize" : .6,
+            "color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "bottom_left"
+		},
+		"modpack":{
+			"text" : "Thaumic Skies",
+            "posX" : 3,
+            "posY" : -33,
+			"fontSize" : .6,
+            "color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "bottom_left"
+		},
+		"modpack2":{
+			"text" : "Version 1.1.0",
+            "posX" : 3,
+            "posY" : -27,
+			"fontSize" : .6,
+            "color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "bottom_left"
+		},
+		"newsLine1":{
+			"text" : "",
+            "posX" : -100,
+            "posY" : 15,
+			"fontSize" : 2.5,
+			"color" : 16711680,
+			"hoverColor" : 16711680,
+            "alignment" : "top_center"
+		},
+		"newsLine2":{
+			"text" : "",
+            "posX" : -100,
+            "posY" : 40,
+			"fontSize" : 2.5,
+            "color" : 16711680,
+			"hoverColor" : 16711680,
+            "alignment" : "top_center"
+		},
+		"newsLine3":{
+			"text" : "",
+            "posX" : -140,
+            "posY" : 33,
+			"fontSize" : .8,
+            "color" : 16711680,
+			"hoverColor" : 16711680,
+            "alignment" : "top_right"
+		}
+    },
+    
+    "other":
+    {
+		"background":
+		{
+			"image" : "mainmenu:background.png",
+			"mode" : "fill"
+		}
+    }
+}

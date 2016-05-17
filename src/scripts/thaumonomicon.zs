@@ -12,7 +12,9 @@ game.setLocalization("en_US", "tc.research_category.THAUMICSKIES", "Thaumic Skie
 //mods.thaumcraft.Research.addPage("", "ts.research_page.");
 //game.setLocalization("en_US", "ts.research_page.", "");
 
+
 #Basic Ores
+
 mods.thaumcraft.Research.addResearch("OREBASIC", "THAUMICSKIES", "metallum 4, ordo 2", 0, 0, 0, <minecraft:iron_ore>);
 game.setLocalization("en_US", "tc.research_name.OREBASIC", "Ore Production");
 game.setLocalization("en_US", "tc.research_text.OREBASIC", "[TS] Better than sieving!");
@@ -110,7 +112,16 @@ game.setLocalization("en_US", "tc.research_text.TSPORTALELDRITCH", "[TS] Creatio
 mods.thaumcraft.Research.addPage("TSPORTALELDRITCH", "tc.research_page.TSPORTALELDRITCH1");
 mods.thaumcraft.Research.addInfusionPage("TSPORTALELDRITCH", <Thaumcraft:blockPortalEldritch>);
 game.setLocalization("en_US", "tc.research_page.TSPORTALELDRITCH1", "Creatio ex Nihilo - Creation from nothingness <LINE>This is exactly what you succeded in doing: You created a portal to the eldritch dimension from nothing! Unfortunately, your portal still doesn't work properly: While it takes you to the elder's dimension, you will most likely be in mid-air above a huge empty space! The portal works best in the nether as well, as the infernal powers fuel the portal better than the ones on your floating island. You wonder whether more research, or a trip there might pay off? You haven't found out why the portal is invisible when not placed?");
-
+mods.thaumcraft.Research.addPage("TSPORTALELDRITCH", "tc.research_page.TSPORTALELDRITCH2");
+game.setLocalization("tc.research_page.TSPORTALELDRITCH2","Following some strange mechanics you which are too complicated to be explained here, you managed to craft one type of eldritch portal into the other one vice versa");
+mods.thaumcraft.Research.addCraftingPage("TSPORTALELDRITCH",<gadomancy:BlockAdditionalEldritchPortal>);
+mods.thaumcraft.Research.addPage("TSPORTALELDRITCH","tc.research_page.TSPORTALELDRITCH3");
+game.setLocalization("tc.research_page.TSPORTALELDRITCH3", "After a bit of tinkering you changed the portal's behaviour dramatically: <BR>Instead of taking you to the outherlands, it now takes the outerlands to you! Or rather, one of it's bosses...");
+mods.thaumcraft.Research.addArcanePage("TSPORTALELDRITCH", <Thaumcraft:ItemSpawnerEgg:7>);
+mods.thaumcraft.Research.addArcanePage("TSPORTALELDRITCH", <Thaumcraft:ItemSpawnerEgg:10>);
+mods.thaumcraft.Research.addArcanePage("TSPORTALELDRITCH", <Thaumcraft:ItemSpawnerEgg:11>);
+mods.thaumcraft.Research.addArcanePage("TSPORTALELDRITCH", <Thaumcraft:ItemSpawnerEgg:12>);
+mods.thaumcraft.Research.addArcanePage("TSPORTALELDRITCH", <Thaumcraft:ItemSpawnerEgg:28>);
 
 
 #Eldritch Portal Intro
@@ -121,16 +132,35 @@ mods.thaumcraft.Research.addPage("TSPORTALINTRO", "tc.research_page.TSPORTALINTR
 mods.thaumcraft.Research.addPage("TSPORTALINTRO", "tc.research_page.TSPORTALINTRO2");
 game.setLocalization("en_US", "tc.research_page.TSPORTALINTRO1", "After hours of researching you and your insanity had an idea: After hearing of a distant place where the eldritch guardians and supposedly also other species come from, you tried to create a portal there. Unfortunately, none of your trials succeded... You think there is something out there preventing your thoughts from becoming clearer, maybe more research in other sections of Thaumaturgy might help? You believe it will take a lot to open that rift by force.");
 game.setLocalization("en_US", "tc.research_page.TSPORTALINTRO2", "<LINE>There are so many questions you ask yourself: Why do beings from an other World take the effort of coming to your world, only to try to stop you? To come here they used the same powers as you do, so essentially you are comrads! And why do they only bring chaos and destruction to the world, instead of creation? The greatest question you stand upon is, what has happened to their world, that they try to prevent others from becoming like them? You wonder if you could talk to a guardian one time?");
+mods.thaumcraft.Research.addPage("TSPORTALINTRO", "tc.research_page.TSPORTALINTRO3");
+mods.thaumcraft.Research.addPage("TSPORTALINTRO", "tc.research_page.TSPORTALINTRO4");
+game.setLocalization("tc.research_page.TSPORTALINTRO3","If you really don't know what else to look into, here are some riddles: <LINE> Play roulette! Again and again and research further! <LINE> You need to master the craftmansskip of armor, so you can compete against the beings from an other world!<LINE>");
+game.setLocalization("tc.research_page.TSPORTALINTRO4","You need to know of a way of luring beings through dimensions before you can do this with yourself!<LINE>Home is, where the heartstone is.<LINE> You need to have overcome the human race!");
+
+
+
 
 #Eldritch Portal + Intro prereqs
 mods.thaumcraft.Research.addPrereq("TSPORTALINTRO", "ELDRITCHMAJOR", false);
 mods.thaumcraft.Research.addPrereq("TSPORTALINTRO", "OCULUS", false);
 mods.thaumcraft.Research.addPrereq("TSPORTALELDRITCH", "TSPORTALINTRO", false);
-mods.thaumcraft.Research.addPrereq("TSPORTALELDRITCH", "GADOMANCY.GROWING", false);
+mods.thaumcraft.Research.addPrereq("TSPORTALELDRITCH", "GADOMANCY.GROWING_GROWTHCLUE", false);
 mods.thaumcraft.Research.addPrereq("TSPORTALELDRITCH", "VOIDPRAETOR", false);
 mods.thaumcraft.Research.addPrereq("TSPORTALELDRITCH", "DIMENSIONLURE", false);
 mods.thaumcraft.Research.addPrereq("TSPORTALELDRITCH", "FOCUS_RECALL", false);
 mods.thaumcraft.Research.addPrereq("TSPORTALELDRITCH", "selfInfusion", false);
+mods.thaumcraft.Research.setConcealed("TSPORTALELDRITCH", true);
+
+#DireCrafter
+mods.thaumcraft.Research.addResearch("DIRECRAFTER", "THAUMICSKIES", "terminus 10, invidia 10, luxuria 10, permutatio 10, fabrico 50", 2, 8, 6, <Avaritia:Dire_Crafting>);
+mods.thaumcraft.Research.addPrereq("DIRECRAFTER", "TSPORTALELDRITCH", true);
+game.setLocalization("tc.research_name.DIRECRAFTER", "Dire Crafting Table");
+game.setLocalization("tc.research_text.DIRECRAFTER", "Top tier crafting!");
+mods.thaumcraft.Research.addPage("DIRECRAFTER", "tc.research_page.DIRECRAFTER1");
+mods.thaumcraft.Research.addInfusionPage("DIRECRAFTER", <Avaritia:Dire_Crafting>);
+game.setLocalization("tc.research_page.DIRECRAFTER1", "Having mastered both, magic and technic, you found a way to create items normally unobtainable! Well, who wouldn't want to be really... Creative?<BR>But remember: Everything has a price!");
+mods.thaumcraft.Research.setConcealed("DIRECRAFTER", true);
+
 
 ##########################
 #Ender Tank Research Tree#
@@ -162,7 +192,4 @@ game.setLocalization("en_US", "ts.research_page.ENDERTANK", "When it's that time
 mods.thaumcraft.Research.addInfusionPage("ENDERTANK", <EnderStorage:enderChest:4096>);
 mods.thaumcraft.Research.addPrereq("ENDERTANK", "ENDERPUMP", false);
 mods.thaumcraft.Warp.addToResearch("ENDERTANK", 5);
-
-
-
 
