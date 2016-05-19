@@ -78,7 +78,7 @@ mods.thaumcraft.Research.setConcealed("SBINDER", true);
 
 
 #Crafter
-mods.thaumcraft.Research.addResearch("EIOCRAFTER", "EIOTHAUMSKIES", "fabrico 4, machina 4, metallum 4, spiritus 4, mortus 4", 3, 1, 2, <EnderIO:blockCrafter>);
+mods.thaumcraft.Research.addResearch("EIOCRAFTER", "EIOTHAUMSKIES", "fabrico 4, machina 4, metallum 4, spiritus 4, mortuus 4", 3, 1, 2, <EnderIO:blockCrafter>);
 mods.thaumcraft.Research.setSecondary("EIOCRAFTER", true);
 mods.thaumcraft.Research.addPrereq("EIOCRAFTER", "SLICER", false);
 mods.thaumcraft.Research.addPrereq("EIOCRAFTER", "GOLEMWORKBENCH", false);
