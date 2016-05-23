@@ -1,17 +1,26 @@
 {
-  "editMode": false,
+  "editMode": true,
   "hardcore": false,
+  "defLives": 3,
+  "maxLives": 10,
   "questDatabase": [
     {
       "questID": 0,
-      "name": "thaumskies.startrevo.title",
-      "description": "thaumskies.startrevo.descr",
+      "name": "Starting a revolution!!!",
+      "description": "Once you first came here you were most afraid of loosing all your stuff by falling into the void. Now that you have calmed down it\u0027s time for you to care about your ressources.",
       "isMain": true,
       "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
       "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
@@ -22,7 +31,6 @@
       },
       "tasks": [
         {
-          "completeUsers": [],
           "partialMatch": true,
           "ignoreNBT": false,
           "requiredItems": [
@@ -38,19 +46,25 @@
         }
       ],
       "rewards": [],
-      "completed": [],
       "preRequisites": []
     },
     {
       "questID": 1,
-      "name": "thaumskies.becometink.title",
-      "description": "thaumskies.becometink.descr",
+      "name": "Becoming a tinkerer",
+      "description": "Even a thaumaturge needs some tools besides his wand... That for you can use your craftman skills and make yourself some tools. But before that you will need some special stuff for that.",
       "isMain": false,
       "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
       "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
@@ -61,7 +75,6 @@
       },
       "tasks": [
         {
-          "completeUsers": [],
           "partialMatch": true,
           "ignoreNBT": false,
           "requiredItems": [
@@ -83,21 +96,27 @@
         }
       ],
       "rewards": [],
-      "completed": [],
       "preRequisites": [
         0
       ]
     },
     {
       "questID": 2,
-      "name": "thaumskies.moretink.title",
-      "description": "thaumskies.moretink.descr",
+      "name": "Being more Tinkery",
+      "description": "Now that you have some patterns you\u0027re gonna need some place to store them. That for you have the pattern chest!",
       "isMain": false,
       "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
       "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
@@ -108,7 +127,6 @@
       },
       "tasks": [
         {
-          "completeUsers": [],
           "partialMatch": true,
           "ignoreNBT": false,
           "requiredItems": [
@@ -124,21 +142,27 @@
         }
       ],
       "rewards": [],
-      "completed": [],
       "preRequisites": [
         1
       ]
     },
     {
       "questID": 3,
-      "name": "thaumskies.toolparts.title",
-      "description": "thaumskies.toolparts.descr",
+      "name": "Making tool parts",
+      "description": "Now you can use the part builder to build the parts your tool is made of.",
       "isMain": false,
       "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
       "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
@@ -149,7 +173,6 @@
       },
       "tasks": [
         {
-          "completeUsers": [],
           "partialMatch": true,
           "ignoreNBT": true,
           "requiredItems": [
@@ -165,21 +188,27 @@
         }
       ],
       "rewards": [],
-      "completed": [],
       "preRequisites": [
         2
       ]
     },
     {
       "questID": 4,
-      "name": "thaumskies.toolcomplete.title",
-      "description": "thaumskies.toolcomplete.descr",
+      "name": "Tinker the tool",
+      "description": "Now you can put the parts together in the Tool station. You can upgrade the tool in there as well, for the cost of ressources and modifiers.",
       "isMain": false,
       "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
       "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
@@ -190,7 +219,6 @@
       },
       "tasks": [
         {
-          "completeUsers": [],
           "partialMatch": true,
           "ignoreNBT": false,
           "requiredItems": [
@@ -206,21 +234,27 @@
         }
       ],
       "rewards": [],
-      "completed": [],
       "preRequisites": [
         3
       ]
     },
     {
       "questID": 5,
-      "name": "thaumskies.sift.title",
-      "description": "thaumskies.sift.descr",
+      "name": "Start with sifting",
+      "description": "Now you can start using your sieve to sift the dirt for valuable stuff! But before that you have to make one!",
       "isMain": false,
       "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
       "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
@@ -231,7 +265,6 @@
       },
       "tasks": [
         {
-          "completeUsers": [],
           "partialMatch": true,
           "ignoreNBT": false,
           "requiredItems": [
@@ -247,7 +280,6 @@
         }
       ],
       "rewards": [],
-      "completed": [],
       "preRequisites": [
         6,
         12
@@ -255,14 +287,21 @@
     },
     {
       "questID": 6,
-      "name": "thaumskies.string.title",
-      "description": "thaumskies.string.descr",
+      "name": "Starting with String",
+      "description": "Get Silkworms out of the leaves and start cultivating them there",
       "isMain": false,
       "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
       "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
@@ -273,7 +312,6 @@
       },
       "tasks": [
         {
-          "completeUsers": [],
           "partialMatch": true,
           "ignoreNBT": false,
           "requiredItems": [
@@ -289,21 +327,27 @@
         }
       ],
       "rewards": [],
-      "completed": [],
       "preRequisites": [
         0
       ]
     },
     {
       "questID": 7,
-      "name": "thaumskies.getCobble.title",
-      "description": "thaumskies.getCobble.descr",
+      "name": "Getting Cobble",
+      "description": "Sift dirt to get Cobble",
       "isMain": false,
       "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
       "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
@@ -314,7 +358,6 @@
       },
       "tasks": [
         {
-          "completeUsers": [],
           "partialMatch": true,
           "ignoreNBT": false,
           "requiredItems": [
@@ -330,21 +373,27 @@
         }
       ],
       "rewards": [],
-      "completed": [],
       "preRequisites": [
         5
       ]
     },
     {
       "questID": 8,
-      "name": "thaumskies.getIronNuggets.title",
-      "description": "thaumskies.getIronNuggets.descr",
+      "name": "Getting Iron",
+      "description": "You have Cobble. Compress and hammer it to get iron nuggets!",
       "isMain": false,
       "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
       "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
@@ -355,7 +404,6 @@
       },
       "tasks": [
         {
-          "completeUsers": [],
           "partialMatch": true,
           "ignoreNBT": false,
           "requiredItems": [
@@ -376,10 +424,10 @@
           "taskID": "bq_standard:crafting"
         },
         {
-          "completeUsers": [],
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:ItemNugget",
@@ -393,21 +441,27 @@
         }
       ],
       "rewards": [],
-      "completed": [],
       "preRequisites": [
         7
       ]
     },
     {
       "questID": 9,
-      "name": "thaumskies.getLava.title",
-      "description": "thaumskies.getLava.descr",
+      "name": "Getting Lava",
+      "description": "There sure must be a way to convert all my cobble into lava?!?",
       "isMain": false,
       "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
       "globalQuest": true,
       "globalShare": true,
       "autoClaim": false,
       "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
@@ -418,10 +472,10 @@
       },
       "tasks": [
         {
-          "completeUsers": [],
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "minecraft:clay_ball",
@@ -440,7 +494,6 @@
           "taskID": "bq_standard:retrieval"
         },
         {
-          "completeUsers": [],
           "partialMatch": true,
           "ignoreNBT": false,
           "requiredItems": [
@@ -467,10 +520,10 @@
           "taskID": "bq_standard:crafting"
         },
         {
-          "completeUsers": [],
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "exnihilo:crucible",
@@ -490,21 +543,27 @@
         }
       ],
       "rewards": [],
-      "completed": [],
       "preRequisites": [
         7
       ]
     },
     {
       "questID": 10,
-      "name": "thaumskies.ThaumIntro.title",
-      "description": "thaumskies.ThaumIntro.descr",
+      "name": "It\u0027s magic... Is it?!?",
+      "description": "Though lots of people think of Thaumcraft as purely magic mod, it is science, only in an other direction! However to get started you\u0027ll need a research table. Place two tables next to each other and right-click them with scribing tools.",
       "isMain": false,
       "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
       "globalQuest": true,
       "globalShare": true,
       "autoClaim": false,
       "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
@@ -620,10 +679,10 @@
       },
       "tasks": [
         {
-          "completeUsers": [],
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "minecraft:glass",
@@ -648,7 +707,6 @@
           "taskID": "bq_standard:retrieval"
         },
         {
-          "completeUsers": [],
           "partialMatch": true,
           "ignoreNBT": false,
           "requiredItems": [
@@ -787,21 +845,27 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "completed": [],
       "preRequisites": [
         6
       ]
     },
     {
       "questID": 11,
-      "name": "thaumskies.IntroIronDupe.title",
-      "description": "thaumskies.IntroIronDupe.descr",
+      "name": "Making more Iron",
+      "description": "The scroll you just got helped you understanding the world better. Now you can create Iron ore in a crucible!",
       "isMain": false,
       "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
       "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
@@ -812,7 +876,6 @@
       },
       "tasks": [
         {
-          "completeUsers": [],
           "partialMatch": true,
           "ignoreNBT": false,
           "requiredItems": [
@@ -844,7 +907,6 @@
         }
       ],
       "rewards": [],
-      "completed": [],
       "preRequisites": [
         8,
         10
@@ -852,14 +914,21 @@
     },
     {
       "questID": 12,
-      "name": "thaumskies.dirt.title",
-      "description": "thaumskies.dirt.descr",
+      "name": "Start with dirt",
+      "description": "You are on a lonely Island, so where to get your ressources, you wonder? That for you have your tree! It provides you with all the wood you will need and his sapling seem interesting, as well! Maybe you can somehow compost them?",
       "isMain": false,
       "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
       "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
@@ -870,7 +939,6 @@
       },
       "tasks": [
         {
-          "completeUsers": [],
           "partialMatch": true,
           "ignoreNBT": false,
           "requiredItems": [
@@ -886,21 +954,27 @@
         }
       ],
       "rewards": [],
-      "completed": [],
       "preRequisites": [
         0
       ]
     },
     {
       "questID": 13,
-      "name": "thaumskies.ThaumBookIntro.title",
-      "description": "thaumskies.ThaumBookIntro.descr",
+      "name": "A strange book",
+      "description": "For some reason, the thaumonomicons existence is a mystery to even the most skilled thaumaturges...\n\nFor once, it contains all of your knowledge and your completed research, yet it also seems to look deeply in your brain and lists branches of research worth looking into...\n\nAnother strange thing is that all thaumonomicons are somehow connected to each other, so you don\u0027t have to research everything again should you lose it!",
       "isMain": false,
       "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
       "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
@@ -911,10 +985,10 @@
       },
       "tasks": [
         {
-          "completeUsers": [],
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "Thaumcraft:ItemThaumonomicon",
@@ -928,21 +1002,27 @@
         }
       ],
       "rewards": [],
-      "completed": [],
       "preRequisites": [
         10
       ]
     },
     {
       "questID": 14,
-      "name": "thaumskies.ThaumRoseIntro.title",
-      "description": "thaumskies.ThaumRoseIntro.descr",
+      "name": "Rosa Mysteria",
+      "description": "The Crystal Cluster Block and the rose you found in the chest seem to belong together...\n\nTry planting the sprout on the block and see what happens...\nJust don\u0027t use up the last fragment of a stack while in multiplayer, as java doesn\u0027t like greedy people!",
       "isMain": false,
       "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
       "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
@@ -953,10 +1033,10 @@
       },
       "tasks": [
         {
-          "completeUsers": [],
           "partialMatch": true,
           "ignoreNBT": false,
           "consume": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "thaumicbases:knoseFragment",
@@ -970,30 +1050,35 @@
         }
       ],
       "rewards": [],
-      "completed": [],
       "preRequisites": []
     },
     {
       "questID": 15,
-      "name": "thaumskies.ThaumKillMobs.title",
-      "description": "thaumskies.ThaumKillMobs.descr",
+      "name": "Filling your wand",
+      "description": "Everything, regardless whether lifeless block or living being is made out of mystical elements called aspects!\n\nHaving understood this, you wondered whether you can somehow separate someting from its aspects?\nWhile this seems to be an impossible task with items, converting those living dead into real dead seems to reward you with some aspect orbs, that can be collected using the wand.",
       "isMain": false,
       "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
       "globalQuest": false,
       "globalShare": true,
       "autoClaim": false,
       "repeatTime": -1,
-      "logic": "AND",
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "OR",
       "taskLogic": "AND",
       "icon": {
-        "id": "minecraft:nether_star",
+        "id": "props:tool",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
       },
       "tasks": [
         {
-          "completeUsers": [],
           "target": "Zombie",
           "required": 10,
           "subtypes": true,
@@ -1003,7 +1088,6 @@
           "taskID": "bq_standard:hunt"
         },
         {
-          "completeUsers": [],
           "target": "Creeper",
           "required": 10,
           "subtypes": true,
@@ -1013,7 +1097,6 @@
           "taskID": "bq_standard:hunt"
         },
         {
-          "completeUsers": [],
           "target": "Skeleton",
           "required": 10,
           "subtypes": true,
@@ -1023,7 +1106,6 @@
           "taskID": "bq_standard:hunt"
         },
         {
-          "completeUsers": [],
           "target": "Spider",
           "required": 10,
           "subtypes": true,
@@ -1034,20 +1116,44 @@
         }
       ],
       "rewards": [],
-      "completed": [
-        {
-          "uuid": "07c43ca8-8a08-4108-9c00-06ba474f727a",
-          "timestamp": 105294,
-          "claimed": false
-        }
-      ],
       "preRequisites": []
+    },
+    {
+      "questID": 16,
+      "name": "How to research",
+      "description": "Now that you have a research table and a research note, what the heck do you do with those?\n\nFirst of all, you read the thaumonomicon entry called \"Research\".\nIt is located in the very first thaumcraft tab balled \"Basic Information\" and on its icon one can see the scribing tools.\n\nThen you should know what to do!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:ItemResearchNotes",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        10
+      ]
     }
   ],
   "questLines": [
     {
-      "name": "thaumskies.qsets.skyLearn.title",
-      "description": "thaumskies.qsets.skyLearn.descr",
+      "name": "Learning to skyblock",
+      "description": "This will teach you the basics of skyblocking",
       "quests": [
         {
           "id": 0,
@@ -1057,83 +1163,88 @@
         {
           "id": 1,
           "x": 0,
-          "y": 50
+          "y": 48
         },
         {
           "id": 2,
           "x": 16,
-          "y": 100
+          "y": 96
         },
         {
           "id": 3,
           "x": 16,
-          "y": 150
+          "y": 144
         },
         {
           "id": 4,
           "x": 0,
-          "y": 200
+          "y": 192
         },
         {
           "id": 5,
           "x": 48,
-          "y": 100
+          "y": 96
         },
         {
           "id": 6,
           "x": 32,
-          "y": 50
+          "y": 48
         },
         {
           "id": 7,
           "x": 48,
-          "y": 150
+          "y": 144
         },
         {
           "id": 8,
           "x": 32,
-          "y": 200
+          "y": 192
         },
         {
           "id": 9,
           "x": 64,
-          "y": 200
+          "y": 192
         },
         {
           "id": 12,
           "x": 64,
-          "y": 50
+          "y": 48
         }
       ]
     },
     {
-      "name": "thaumskies.qsets.thaum.title",
-      "description": "thaumskies.qsets.thaum.descr",
+      "name": "Thaumaturgy",
+      "description": "This will tell you the basics of thaumcraft and how to get started.",
       "quests": [
         {
           "id": 10,
-          "x": 0,
+          "x": 96,
           "y": 0
         },
         {
           "id": 11,
-          "x": 16,
-          "y": 50
+          "x": 96,
+          "y": 48
         },
         {
           "id": 13,
-          "x": 48,
-          "y": 50
+          "x": 128,
+          "y": 48
         },
         {
           "id": 14,
-          "x": 32,
+          "x": 0,
           "y": 0
         },
         {
           "id": 15,
+          "x": 0,
+          "y": 48
+        },
+        {
+          "id": 16,
           "x": 64,
-          "y": 0
+          "y": 48
         }
       ]
     }
