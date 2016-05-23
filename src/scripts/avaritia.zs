@@ -44,7 +44,3 @@ mods.avaritia.ExtremeCrafting.addShapeless(<Avaritia:Resource:5>, [<minecraft:em
 
 #Octuple Compressed Cobble
 mods.avaritia.Compressor.add(<ExtraUtilities:cobblestone_compressed:7>, 43046721, <minecraft:cobblestone>);
-mods.avaritia.Compressor.add(<ExtraUtilities:cobblestone_compressed:7>, 4782969, <ExtraUtilities:cobblestone_compressed>);
-mods.avaritia.Compressor.add(<ExtraUtilities:cobblestone_compressed:7>, 531441, <ExtraUtilities:cobblestone_compressed:1>);
-mods.avaritia.Compressor.add(<ExtraUtilities:cobblestone_compressed:7>, 59049, <ExtraUtilities:cobblestone_compressed:2>);
-mods.avaritia.Compressor.add(<ExtraUtilities:cobblestone_compressed:7>, 6561, <ExtraUtilities:cobblestone_compressed:3>);
