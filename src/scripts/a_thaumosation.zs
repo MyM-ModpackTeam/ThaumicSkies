@@ -172,3 +172,8 @@ mods.thaumcraft.Infusion.addRecipe("DIRECRAFTER", <Avaritia:Triple_Craft>, [<Ava
 #ChargedCertusQuartz
 mods.thaumcraft.Crucible.addRecipe("CERTUSQUARTZCHARGED", <appliedenergistics2:item.ItemMultiMaterial:1>, <appliedenergistics2:item.ItemMultiMaterial>, "potentia 16");
 
+#AgricraftRoseArcana
+mods.thaumcraft.Infusion.addRecipe("AGRICRAFTROSEARCANA", <thaumicbases:knoseSeed>, [<thaumicbases:knoseFragment>, <thaumicbases:knoseFragment:1>, <thaumicbases:knoseFragment:2>, <AgriCraft:cropsItem>, <thaumicbases:knoseFragment:3>, <thaumicbases:knoseFragment:4>, <thaumicbases:knoseFragment:5>, <AgriCraft:cropsItem>], "messis 5, herba 5, victus 5, terra 5, permutatio 2, ordo 1", <AgriCraft:seedRosaarcana>, 2);
+
+#WirelessCraftingTerminal
+mods.thaumcraft.Infusion.addRecipe("AE2WIRELESSCRAFTER", <appliedenergistics2:item.ItemMultiPart:360>, [<ExtraUtilities:trashcan>, <appliedenergistics2:item.ItemMultiMaterial:42>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:item.ItemMultiMaterial:42>, <appliedenergistics2:item.ItemMultiMaterial:41>, <appliedenergistics2:item.ItemMultiMaterial:42>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:item.ItemMultiMaterial:42>], "auram 10, fabrico 100, permutatio 5, vacuos 10, instrumentum 10, potentia 50, machina 5", <ae2wct:wirelessCraftingTerminal>, 10);

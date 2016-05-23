@@ -161,6 +161,16 @@ mods.thaumcraft.Research.addInfusionPage("DIRECRAFTER", <Avaritia:Dire_Crafting>
 game.setLocalization("tc.research_page.DIRECRAFTER1", "Having mastered both, magic and technic, you found a way to create items normally unobtainable! Well, who wouldn't want to be really... Creative?<BR>But remember: Everything has a price!");
 mods.thaumcraft.Research.setConcealed("DIRECRAFTER", true);
 
+#RosaArcana
+mods.thaumcraft.Research.addResearch("AGRICRAFTROSEARCANA", "THAUMICBASES", "herba 10, meto 5, fabrico 1, messis 10, lucrum 1", 3, -10, 2, <thaumicbases:knoseSeed>);
+mods.thaumcraft.Research.setSecondary("AGRICRAFTROSEARCANA", true);
+mods.thaumcraft.Research.addPrereq("AGRICRAFTROSEARCANA", "TB.Knose", false);
+game.setLocalization("tc.research_name.AGRICRAFTROSEARCANA","Agricultural Roses");
+game.setLocalization("tc.research_text.AGRICRAFTROSEARCANA","So just putting it on sticks doesn't work?");
+mods.thaumcraft.Research.addPage("AGRICRAFTROSEARCANA","tc.research_page.AGRICRAFTROSEARCANA1");
+mods.thaumcraft.Research.addInfusionPage("AGRICRAFTROSEARCANA", <AgriCraft:seedRosaarcana>);
+game.setLocalization("tc.research_page.AGRICRAFTROSEARCANA1","After watching your roses growing slowly and comparing their speed to your other plants you wondered, why you cannot just put those seeds on cropsticks as well? <BR>Turned out that this process needs some infusion magic, as those seeds are unwilling to grow with mundane wood nearby...<BR>The RosaArcana seeds are almost the same as the normal ones, yet they can only grow mixed knowledge fragments and grow on agricraft sticks. That also means they can be leveled!");
+
 
 ##########################
 #Ender Tank Research Tree#

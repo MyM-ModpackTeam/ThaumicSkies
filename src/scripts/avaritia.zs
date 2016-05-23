@@ -1,6 +1,17 @@
 import minetweaker.item.IItemStack;
 
 /*
+mods.avaritia.ExtremeCrafting.addShapeless(output, ingredients);
+mods.avaritia.ExtremeCrafting.addShaped(output, ingredients);
+mods.avaritia.ExtremeCrafting.remove(output);
+mods.avaritia.Compressor.add(output, amount, input); //(amount is an int)
+mods.avaritia.Compressor.add(output, amount, input, false); //(if you want the recipe to use the scaling system)
+*/
+
+
+
+
+/*
 Disabled because of Public Vote
 mods.avaritia.ExtremeCrafting.remove(<Avaritia:Orb_Armok>);
 mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Shoes>);
@@ -30,3 +41,10 @@ mods.avaritia.ExtremeCrafting.remove(<appliedenergistics2:tile.BlockCreativeEner
 #Fix for the infinity catalyst
 mods.avaritia.ExtremeCrafting.remove(<Avaritia:Resource:5>);
 mods.avaritia.ExtremeCrafting.addShapeless(<Avaritia:Resource:5>, [<minecraft:emerald_block>,<Avaritia:Singularity>,<Avaritia:Singularity:1>,<Avaritia:Singularity:2>,<Avaritia:Singularity:3>,<Avaritia:Singularity:4>,<Avaritia:Singularity:5>,<Avaritia:Singularity:6>,<Avaritia:Singularity:7>,<Avaritia:Singularity:8>,<Avaritia:Singularity:9>,<Avaritia:Ultimate_Stew>,<Avaritia:Cosmic_Meatballs>,<Avaritia:big_pearl>,<ThaumicTinkerer:kamiResource:2>,<extracells:storage.component:3>,<appliedenergistics2:item.ItemMultiMaterial:47>,<ExtraUtilities:block_bedrockium>,<ore:blockUnstable>,<IC2:itemPartIridium>,<Botania:storage:1>,<Botania:manaResource:5>,<AWWayofTime:blockCrystal>,<ore:blockLudicrite>,<DraconicEvolution:draconicBlock>,<ore:blockManyullyn>,<MineFactoryReloaded:pinkslime:1>,<ore:record>,<ore:blockEnderium>,<ore:blockSteel>,<EnderIO:blockIngotStorage:6>]);
+
+#Octuple Compressed Cobble
+mods.avaritia.Compressor.add(<ExtraUtilities:cobblestone_compressed:7>, 43046721, <minecraft:cobblestone>);
+mods.avaritia.Compressor.add(<ExtraUtilities:cobblestone_compressed:7>, 4782969, <ExtraUtilities:cobblestone_compressed>);
+mods.avaritia.Compressor.add(<ExtraUtilities:cobblestone_compressed:7>, 531441, <ExtraUtilities:cobblestone_compressed:1>);
+mods.avaritia.Compressor.add(<ExtraUtilities:cobblestone_compressed:7>, 59049, <ExtraUtilities:cobblestone_compressed:2>);
+mods.avaritia.Compressor.add(<ExtraUtilities:cobblestone_compressed:7>, 6561, <ExtraUtilities:cobblestone_compressed:3>);
