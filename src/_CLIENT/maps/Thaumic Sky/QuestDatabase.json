@@ -7,7 +7,7 @@
     {
       "questID": 0,
       "name": "Starting a revolution!!!",
-      "description": "Once you first came here you were most afraid of loosing all your stuff by falling into the void. Now that you have calmed down it\u0027s time for you to care about your ressources.",
+      "description": "When you first came here you were most afraid of losing all your stuff by falling into the void. Now that you have calmed down it\u0027s time for you to care about your resources.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
