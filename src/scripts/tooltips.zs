@@ -10,3 +10,7 @@
 
 <Thaumcraft:blockPortalEldritch>.addTooltip(format.green("Placing this will only work in the Nether!"));
 <Thaumcraft:blockPortalEldritch>.addTooltip(format.green("Prepare yourself to handle the void!"));
+
+
+<ThaumicTinkerer:focusFlight>.addTooltip(format.green("Doesn't work for whatever reason! Only usable as crafting ingredient!"));
+<Steamcraft:coatingsPyrophobic>.addTooltip(format.red("WARNING: Crashes when touching lava on multiplayer!"));
